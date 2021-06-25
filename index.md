@@ -1,37 +1,34 @@
-## Welcome to GitHub Pages
+<p align="center">
+    <img src="https://raw.githubusercontent.com/bmresearch/Solnet/5f799e4e5cc5978c3f5cb15b96ad855162a4f085/assets/icon.png" margin="auto" height="175"/>
+</p>
 
-You can use the [editor on GitHub](https://github.com/bmresearch/Solnet/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<div align="center">
+    <a href="https://dev.azure.com/bmresearch/solnet/_build/latest?definitionId=2&branchName=refs%2Fpull%2F7%2Fmerge">
+        <img src="https://img.shields.io/azure-devops/build/bmresearch/solnet/2/master?style=flat-square"
+            alt="Azure DevOps Build Status (master)" ></a>
+    <a href="https://img.shields.io/azure-devops/coverage/bmresearch/solnet/2/master">
+        <img src="https://img.shields.io/azure-devops/coverage/bmresearch/solnet/2/master?style=flat-square"
+            alt="Azure DevOps Cobertura Code Coverage (master)"></a>
+    <a href="">
+        <img src="https://img.shields.io/github/license/bmresearch/solnet?style=flat-square"
+            alt="Code License"></a>
+    <br>
+    <a href="https://twitter.com/intent/follow?screen_name=blockmountainio">
+        <img src="https://img.shields.io/twitter/follow/blockmountainio?style=flat-square&logo=twitter"
+            alt="Follow on Twitter"></a>
+    <a href="https://discord.gg/YHMbpuS3Tx">
+        <img alt="Discord" src="https://img.shields.io/discord/849407317761064961?style=flat-square"
+            alt="Join the discussion!"></a>
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<div style="text-align:center">
 
-### Markdown
+<p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+# What is Solnet?
 
-```markdown
-Syntax highlighted code block
+Solnet is Solana's .NET integration library.
 
-# Header 1
-## Header 2
-### Header 3
+</p>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/bmresearch/Solnet/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</div>
