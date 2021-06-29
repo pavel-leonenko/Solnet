@@ -1,0 +1,1943 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Users/tiago/source/repos/Sol-Net/Solnet/docs",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Crypto.IRandomBytesGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Crypto.IRandomBytesGenerator.html",
+          "hash": "FuGrYUy1mkprO+4GEGcHUkSqW7FVCYfgc6aTBZzJTRQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Crypto.KeyStoreCrypto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Crypto.KeyStoreCrypto.html",
+          "hash": "d/fiQ9KoFH5o+rFTzySNPy8+pp0hejQGuXX1kF5Zjk0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Crypto.RandomBytesGenerator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Crypto.RandomBytesGenerator.html",
+          "hash": "KyYZG4/yiSFyaFZYf6ndqDqTswgI2NxS8UWNl9iyKsY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Crypto.Scrypt.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Crypto.Scrypt.html",
+          "hash": "mVmj6XE0Rg5+Ee4gNFSBcer2K/qB5WMa95hV9F70ocg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Crypto.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Crypto.html",
+          "hash": "UhKx9+PODSghJa9CmnrAAAONARPdrl4GawMNHl/fBPg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Exceptions.DecryptionException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Exceptions.DecryptionException.html",
+          "hash": "cBLFcj3oFVNgzjlpD1yESefFszuAfZFmIB+X22ZkgWE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Exceptions.InvalidKdfException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Exceptions.InvalidKdfException.html",
+          "hash": "iDb01Bdm0uUIF8lPVb+3beux3I7qbdWt08Nufz3T13A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Exceptions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Exceptions.html",
+          "hash": "auPC1puqH3ytiO9LXFzG/JGn3S8UDKs7dtkGKXskt8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.KeyStoreKdfChecker.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.KeyStoreKdfChecker.html",
+          "hash": "Jx8JTadyRSFQhg/7NVLVid1GJhoUCHcPvZC/U14hMxQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.CipherParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.CipherParams.html",
+          "hash": "6yAt6gGIAihgedi1aHZOZrLTf7RziHNh4fFiafRYxfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.CryptoInfo-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.CryptoInfo-1.html",
+          "hash": "8uIgJxtKcjVt8PY8telxjsumjALQm/Te3ifldy78ycE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.KdfParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.KdfParams.html",
+          "hash": "olF12guI1HJs/PAgkIi5YrtkUXrGeL0K2aW+ieeS/Mk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.KdfType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.KdfType.html",
+          "hash": "sMt3XOf/iI+KSLj/NQbpwnsUielMyVKXjTvjaVnY5rA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.KeyStore-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.KeyStore-1.html",
+          "hash": "NQaBAKfWH/jB1WjOJavQn6sk5hQkzva5peLg9nzy1yQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.Pbkdf2Params.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.Pbkdf2Params.html",
+          "hash": "lQDGuqcRKRjHoKQYzyLRB+ZJPM39YiFZog7FJCENiEo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.ScryptParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.ScryptParams.html",
+          "hash": "0YEs0KHAW8PT/PJrDMSuBwpvozPuvpjLNid88c4oxZI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Model.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Model.html",
+          "hash": "NoGulqur3NZxymo8iiO6Ohb8cautPl/XpPppTV24nCM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.SecretKeyStoreService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.SecretKeyStoreService.html",
+          "hash": "VKsTJpKHtVg4eXk8YsnAan3CUNGw0K9Dgz3tvtJnpZo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Serialization.JsonKeyStorePbkdf2Serializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Serialization.JsonKeyStorePbkdf2Serializer.html",
+          "hash": "ZEzrcHZJirm4fJEcNY2Urw/pkHfh3JqY8guGLxsndVU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Serialization.JsonKeyStoreScryptSerializer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Serialization.JsonKeyStoreScryptSerializer.html",
+          "hash": "lJJT4wDUbn8BhQSNfMC2XmTIXoJdEwL8f+1ITNdAYfY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Serialization.html",
+          "hash": "KoQsKRsO9pUgfi9OkubwgdE1uxcZ1bRUGgADgGZior0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Services.ISecretKeyStoreService-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Services.ISecretKeyStoreService-1.html",
+          "hash": "9N2dYkhWyc76r2cFCrn5FrwpkHM+T5tBudl7GFEkbOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Services.KeyStorePbkdf2Service.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Services.KeyStorePbkdf2Service.html",
+          "hash": "fD7UDFTbMK7eq+VB544Whae5xMvwsbdbHdmG2RXrW0A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Services.KeyStoreScryptService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Services.KeyStoreScryptService.html",
+          "hash": "G8wgoiO4HLTMHSPOzZLPPMacOiUL0qJHFqA8MxdtDqw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Services.KeyStoreServiceBase-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Services.KeyStoreServiceBase-1.html",
+          "hash": "odBqeIdVgWHI8O2+D6uv852ywvOM3Bj1uKPahJTFpvY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Services.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Services.html",
+          "hash": "ZqWlaQD8s4qTyQxteO1exm5wat6KBc+0DRSXpziYzlU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.SolanaKeyStoreService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.SolanaKeyStoreService.html",
+          "hash": "pS4/U7lmsccZtPTJKiINzB1qVgzTwXt+UUZoCOL3AQw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.Utils.html",
+          "hash": "7Xwv/IKc826RDKWJPCT7lg1F6MlXA4TOQ08CKvnEgBc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.KeyStore.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.KeyStore.html",
+          "hash": "TB7qkqII8nzocCY99xA+xQ5zu1gqmTCeUgJMy22DeTI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.AssociatedTokenAccountProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.AssociatedTokenAccountProgram.html",
+          "hash": "t05p3KiBNEdVlagxPjkFowN97JDwsq6PxBiJUf4CgNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.AuthorityType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.AuthorityType.html",
+          "hash": "lQE51pJJSRVGDyv9Dvs5LmOEou3ZoZR+WwDyWPsTEiQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.MemoProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.MemoProgram.html",
+          "hash": "Bv3jjW5ATpNUu2w7QCUh/YVHn7U7UJetPvua0O3KqV0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.NameServiceProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.NameServiceProgram.html",
+          "hash": "v7zoZkWXNHJUsB+6zsCfp7uH5C7lg/9pkyv5nJVAzDk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.SharedMemoryProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.SharedMemoryProgram.html",
+          "hash": "m4z/8yYOs69KNVxn99a1K28LgMnkens3pxQ0IA3jPkg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.SystemProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.SystemProgram.html",
+          "hash": "CmOG/bAtXIcBykI+wMpcAqS1r4Ihem9hSh4hY6Ps2mY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.TokenProgram.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.TokenProgram.html",
+          "hash": "EpH5f2IU4rL+nc+GOeWdE16dT11xOp6o3q0HbqNsLpU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.Utils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.Utils.html",
+          "hash": "1+My/pjBrpswQi6S0D7DjMRTV3tqJysR20peGugTgLg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.html",
+          "hash": "MATOt59v0Ok7eSZK8asUVvELvoTPrypOxJT07yfxCBk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Builders.TransactionBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Builders.TransactionBuilder.html",
+          "hash": "ONY+5kU/1V8vHtUx/QsVkHjfMq1Qakp0deRgPV7wSW8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Builders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Builders.html",
+          "hash": "fwklWkADITrFNOI7OcQEJQo7TF68ElbHYu4WAZqV754="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.ClientFactory.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.ClientFactory.html",
+          "hash": "w2Jmo1iB7uRo8WutJJgiH2GjmHqUf0sJEie2P9GlwLk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Cluster.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Cluster.html",
+          "hash": "UZDG9v3+3FqY+Px4VwRfg1X02BPbRTqnjxvrh/AE6a0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Core.Http.RequestResult-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Core.Http.RequestResult-1.html",
+          "hash": "LCOW9uQzUOCETZKQdEXfXdZBEvKTSdcwSS6sLclWl/k="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Core.Http.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Core.Http.html",
+          "hash": "ByoT+hqm46ZXmth6HgScOPGh5xLfyNBjQLezB1++qQ0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionChannel.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionChannel.html",
+          "hash": "3ig+nB7tsgPA8Rrif4k2xlNOgKOgJZRMCwcH/7To0ws="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionEvent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionEvent.html",
+          "hash": "up+e3yngnncGN1IiNy2Pitg6YEwD+OsFeyihfKiyjZs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionState.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionState.html",
+          "hash": "1M9jp39F/fIm7gUXDYFvQEt/hD3UvnZ4Qcpv5Sz3Wsw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionStatus.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Core.Sockets.SubscriptionStatus.html",
+          "hash": "5CMkHOobAN3/6R8yzfE7UI4A3FIx7qGnFTK6O7EUap4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Core.Sockets.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Core.Sockets.html",
+          "hash": "3qnTAils38qMl0icvBpd91M5e6gcX1sJ+xPOnX2UCOs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.IRpcClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.IRpcClient.html",
+          "hash": "agegV05tcIigj6LFlq7VlOlQpfArd7jYtQ/mxOKvfkg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.IStreamingRpcClient.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.IStreamingRpcClient.html",
+          "hash": "paYObAUdGg23HAsT3cOZ/iEoDzWjgv5e8FarowRiQno="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.ContextObj.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.ContextObj.html",
+          "hash": "eTbFSTrzI1eaHlDtV6kCBeW5TLI1jGhckuu1h/oT8lw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.ErrorContent.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.ErrorContent.html",
+          "hash": "qWYECBjYLi5nueASX8hGNT2XVLx3FklzoCkRYsHeeGk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.JsonRpcBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.JsonRpcBase.html",
+          "hash": "sTces2+h77L3GGSWnSGz/ud9iGUP2EFMQtW7p5s0cCM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.JsonRpcErrorResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.JsonRpcErrorResponse.html",
+          "hash": "0QDMBHUBj1IHzktTc7T55IfYv5P0D4zzJRA6a0FOtes="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.JsonRpcRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.JsonRpcRequest.html",
+          "hash": "bM1fsDeia2W8HB7Dy67W5WymW/kWfgArRhLFe5nkC6o="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.JsonRpcResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.JsonRpcResponse-1.html",
+          "hash": "J1oBlAh66xKcLwT+gxOP/1+r/avFOir7UPeVz4DtZnI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.JsonRpcStreamResponse-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.JsonRpcStreamResponse-1.html",
+          "hash": "oFOPShbiyrJLtWzipSk1jDJIf+h2g5Ev+aWXDnuHls8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.ResponseValue-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.ResponseValue-1.html",
+          "hash": "XXFd0fc09h9P9uGHkAbqx3QHvByJ7E/FRUy43kJgpZs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Messages.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Messages.html",
+          "hash": "Ok4QWeDNyhlZSXeQ4uvuhYcD9AQPMYJeC4vIXYA8ztY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.AccountInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.AccountInfo.html",
+          "hash": "jC1gmqvum4Wb85ORim9C86qFxdzBc1Gnvgsm4IqPYdI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.AccountInfoBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.AccountInfoBase.html",
+          "hash": "6w3+2togUrOSvdXZ2ioC8DLmA+I8A4l+ApwGo9M/QUs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.AccountKeyPair.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.AccountKeyPair.html",
+          "hash": "ti6YinAvZ6Uy+jvIqyfgF/kP1XXmJyKNKLZGokxf7RA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.AccountMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.AccountMeta.html",
+          "hash": "7w7VIW2o7J4q9rH4ZTLPtnTpvtC10T9rq1P2x7KoZkY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.BlockCommitment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.BlockCommitment.html",
+          "hash": "Cfd3e6Fd6C1NAjue4tqzah77SlwtDSTLBIaN7sFN/Lo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.BlockHash.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.BlockHash.html",
+          "hash": "PPb9oXKyB79Aen2XfZ1GGNnCGDDrdz1TmT4aCH20SFQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.BlockInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.BlockInfo.html",
+          "hash": "lINy9IJLULPKr1wED1GL0Fe7OyvS1yCSUsvTaP3EzGc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.BlockProductionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.BlockProductionInfo.html",
+          "hash": "O9wtoiJDI/2/ljn+Wrqr0S6obyDVs5wXBUzPRfqsqws="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.ClusterNode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.ClusterNode.html",
+          "hash": "TRcGXI6ep8LTcJobBOHN7zs2Facm7ZgHWTs/ui8QRvA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.EpochInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.EpochInfo.html",
+          "hash": "iYpDaob5CSxAfkij5CFKAJENid+y12VACGYlb6D7zKs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.EpochScheduleInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.EpochScheduleInfo.html",
+          "hash": "lVPugk+Nl0PoI/ep7W/2QBsob/gwBD+Onoy+3HTW9jY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.ErrorResult.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.ErrorResult.html",
+          "hash": "uxPmIeZZgzxXfVAyLXEGyxcR9feB0DUzR3WtVjTrVCY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.FeeCalculator.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.FeeCalculator.html",
+          "hash": "5Yn+Bj2XOD2cgbmixSMvmp6eYdke/k5pwXJWt47OOo0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.FeeCalculatorInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.FeeCalculatorInfo.html",
+          "hash": "yPrbm0bKLJRFWp/80qQMQrxfAD6k+n3c3DtsqXcVEis="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.FeeRateGovernor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.FeeRateGovernor.html",
+          "hash": "cyEwiyZIerRI/5r+YU6K+cEhoDknNpwhQusIyfYANck="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.FeeRateGovernorInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.FeeRateGovernorInfo.html",
+          "hash": "faMqxaMbQdAXjKRqjCqrriW99q0YEATjZTC4L6jqI2c="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.FeesInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.FeesInfo.html",
+          "hash": "bMMCDzNvN5+zw1qh77ehxh+ZSCLyWR7vcF6F1mFhXb0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.InflationGovernor.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.InflationGovernor.html",
+          "hash": "bVx0YhnFLM+26bDlQacKLju57lQvrpqu8YKHs8R2vWs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.InflationRate.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.InflationRate.html",
+          "hash": "GjMMR+IaUh9UdN7XWZKl3XUtFxZKqcmihY0uXvPIriI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.InflationReward.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.InflationReward.html",
+          "hash": "fP/hloD5YUUBXuAyrzSeS2dh9ZxJF4Zx4HtbJU+vkP0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.InnerInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.InnerInstruction.html",
+          "hash": "RSh+hcBMxOcC7ISMwtYvIkTNbIzpbuku26+CRPo+ccc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.InstructionError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.InstructionError.html",
+          "hash": "f1/YqUYExfnwDc9sD3HyS9eYLk+hfXVASIbOaS0Cuds="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.InstructionErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.InstructionErrorType.html",
+          "hash": "bQA0CuwClTK3KRWXGhfdxqWDYj2v7KPyLgKCIV3qtt0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.InstructionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.InstructionInfo.html",
+          "hash": "LhpPwdyXugZyt8NmZBI7Bz/ypClQsTpFAt+HQenlosE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.LargeAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.LargeAccount.html",
+          "hash": "5SVHH4y5YHeysebnWa/sWC2GSpwlcni9Cv+APpa88M4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.LargeTokenAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.LargeTokenAccount.html",
+          "hash": "z1FheqsSrxeM9veQc9Ix0kGC96qv4YtxCQ3LEbwjcgw="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.Log.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.Log.html",
+          "hash": "H9CGYUda4H9NnTqCYpAuEcGapjb4LyuyHzfONVb2/rg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.LogInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.LogInfo.html",
+          "hash": "vBXgPZEbnExiauGuEYGZDgUS6Y+7dDJrjh/eF1dcEOg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.NodeIdentity.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.NodeIdentity.html",
+          "hash": "VhvVoxATCQXhFKSBkJMMJ8nmLsi6p+ytLP0RE2WSMz4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.NodeVersion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.NodeVersion.html",
+          "hash": "ZfHgFGu/fHEzhpvACmpUgOGt6x2RpQvN+pKrrUz8ZfY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.ParsedTokenAccountData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.ParsedTokenAccountData.html",
+          "hash": "iG4TNm0tNK8iZ8DfZYSnaLYfmx2nyVJ56uZ+Dl/m9v0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.PerformanceSample.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.PerformanceSample.html",
+          "hash": "XYsTzy0iQQv4pzZMlPz7QudF36dSpIN891i4/oKTNpY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.RewardInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.RewardInfo.html",
+          "hash": "bozeUQLgSHZBPWw1ic6RypX1gxeSAP3dpr3FnhpHM7s="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.RewardType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.RewardType.html",
+          "hash": "GZF2vxqEq5pA7eVazY+2+xY0sqdrCujLpMOE0W01qA0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.SignatureStatusInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.SignatureStatusInfo.html",
+          "hash": "TNTfJPiMYw78i7M4fucE0YvK00grX7Q78tt3N4HuTOs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.SimulationLogs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.SimulationLogs.html",
+          "hash": "HjZHjDNZThfA+fOjr7BJQpS6Flvm8gszfaAE91r5/fU="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.SlotInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.SlotInfo.html",
+          "hash": "Z5GOWvi+DrBgqKxsCn+7H/BSJfU0ZWzddxwTgeFGNFo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.SlotRange.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.SlotRange.html",
+          "hash": "XBgXV6WZDT7tkgnXIddd4bvKLkAxE8CxgWoeedCBXac="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.StakeActivationInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.StakeActivationInfo.html",
+          "hash": "HihyU6Td5dCGHqOOoTf8eUe8lNIJb9u8dHJZ1/dzrv0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.Supply.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.Supply.html",
+          "hash": "BpsoFso/uvhMLE/f5xdGNL7kp4v+xlcuc8Auaqm37bs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TokenAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TokenAccount.html",
+          "hash": "xWLRHUjo2A7EsE41sWUduzE6fnAf3RfNXoWYp7lOpU0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TokenAccountData.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TokenAccountData.html",
+          "hash": "LjGsBCkD1sL/vopZAaB+rDwe24F1pAncvoD+Z6aHnQY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TokenAccountInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TokenAccountInfo.html",
+          "hash": "Euwg3GsKBhKMbyjVit7Rml4cFxX6LgTbIhsdgaKp3DY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TokenAccountInfoDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TokenAccountInfoDetails.html",
+          "hash": "sqP9EOP/iE6GWhOtaXPq5fNUGnJuGSthPPzUsuIwDwQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TokenBalance.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TokenBalance.html",
+          "hash": "kvuT9OxpJDN4WiT4Qp+2HdsmNdpOfFCMNjFNfaOZ+/I="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TokenBalanceInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TokenBalanceInfo.html",
+          "hash": "F5osATP4QuXCzN+s5F7xPnLetsk47Rt7MTX5zPI+gq0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionContentInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionContentInfo.html",
+          "hash": "6FOON7JN7BGxkVrvHrA3DD7/OZTIGipcdMGJaoAmeB0="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionError.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionError.html",
+          "hash": "4rl5YClmurSrdFvIrgj3uoew7Tw82YMUo6MpzY2oqyI="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionErrorJsonConverter.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionErrorJsonConverter.html",
+          "hash": "SMa7CmzWbaCyv09dclL4lOPwYmIo97rFrj0zWWzm1uQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionErrorType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionErrorType.html",
+          "hash": "CffPvUxMsaS471k/clCn0/qN/w6ErTzQNSWAJxOOvxQ="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionHeaderInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionHeaderInfo.html",
+          "hash": "GTNJ4TNgvwT3FcgdZ5Oyg+9XM3WmFGQnva+xVvq79Ho="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionInfo.html",
+          "hash": "gvH2l8s39ZP0tBqVM4UpfFFvxX+aTezSkes5bgupoLk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionInstruction.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionInstruction.html",
+          "hash": "V1eQj8m3mtrQJWYQ7+AzzRj6W2bvyRES0m8YZowUf1U="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionMeta.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionMeta.html",
+          "hash": "oSuNcwWRP+KJ0/4F/D3F3o/bT4PgQL0NK+g2uRyvxnA="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionMetaInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionMetaInfo.html",
+          "hash": "OasnjlcySoRJLNzbOLxDwamVwCOVq/hVtjs8ggU6uFg="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.TransactionMetaSlotInfo.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.TransactionMetaSlotInfo.html",
+          "hash": "t6IIdg9c05XmvbdXztpMo0/QgkNnjl+6ZyK6GpN+vMk="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.VoteAccount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.VoteAccount.html",
+          "hash": "dY7AvZk6GEWuSjYOpcextwQC8WRQSfsE1dGUoT2+9X4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.VoteAccounts.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.VoteAccounts.html",
+          "hash": "Dn609DwS7ra+6Gx2sgb0j4d6G4NuLN1vGkdmW9ektEc="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Models.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Models.html",
+          "hash": "74htfBZ+epFEQ1GABONr5Rx7xkkVAhhjqiZwIVv7W9E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Types.AccountFilterType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Types.AccountFilterType.html",
+          "hash": "lJaE0fNIiSI6wpZlYtJnimsrTQDxlTAdKXbe5LxMyys="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Types.BinaryEncoding.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Types.BinaryEncoding.html",
+          "hash": "R4gPaneuSr7hFnPci+MnapRaL6HMMzksYdX+Z60V4Ug="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Types.Commitment.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Types.Commitment.html",
+          "hash": "v9Fn3YUlX4LQlZ1M6NG/CmYom03iIskio63DDfGsFZY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Types.LogsSubscriptionType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Types.LogsSubscriptionType.html",
+          "hash": "3MhC/llrpwjg2SgNqDVrlLSva1GJFxN8ZjGZLsAxves="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Types.TransactionDetails.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Types.TransactionDetails.html",
+          "hash": "xOp1RgOXKB+uHDqGxyJqRR+Dy9lfbLxgxr4gaOpxABM="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Types.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Types.html",
+          "hash": "4Ceg1mLuTmrDGxTKRIBYpTJ1SXH2nv84pgMaPel7Ap8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Utilities.AddressExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Utilities.AddressExtensions.html",
+          "hash": "mkb9lmQUle1PxkuDBhabU8Gw7KJ1YnsifYJ+HLhK4Vs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.Utilities.html",
+          "hash": "ptZ53iW1pGMtt95/v3dwNIR9D0R88juikex2a8meGRY="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Rpc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Rpc.html",
+          "hash": "8Q7jqpwZ7BGgQgK45LTnH5+Ye/sze48p0c4gJMNg4hI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Account.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Account.html",
+          "hash": "BI6h9WUMpkuEqTzqXV76pMzAd81x5odub0Y0Xj8LUsI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Bip39.Language.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Bip39.Language.html",
+          "hash": "fLEJ13ZbSpUG9P9U9RwohbwzFFQ2Xvkr5K7VgkjAYRE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Bip39.Mnemonic.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Bip39.Mnemonic.html",
+          "hash": "MegtMJ8NFkVXzDxa7LS1gsEmFWg+uLUnMKhuWox9vJU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Bip39.WordCount.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Bip39.WordCount.html",
+          "hash": "/V+x9x1UCojYbtlCtw/gzVw1j23ifZxrefOYLojvktk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Bip39.WordList.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Bip39.WordList.html",
+          "hash": "Yti+KqLYnFfx2ZIH2gOx+YJvTe/q5z4tMgJvNbPxgb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Bip39.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Bip39.html",
+          "hash": "fWAEDwafcdwBbmQJv2LcSTU0yg151jvT1x2cG8KANAU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Ed25519Bip32.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Ed25519Bip32.html",
+          "hash": "Dag0jN33fXy8zzR8SIDKQ/j7+gPmK7vGHAjwvYgPCpQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.PrivateKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.PrivateKey.html",
+          "hash": "oJUbe6TRIlwMYtCaGGwGxK0McRHdgCS4hKqmRMcKmQk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.PublicKey.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.PublicKey.html",
+          "hash": "OOVpVv8R0lng4Sa+HxTWToSgv7xgFhFr0c4oahZCL8Y="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.SeedMode.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.SeedMode.html",
+          "hash": "ptqbRWm9mc6CkYdscvCp4SCrTurtanuCFVsFJirNxuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.Base58Encoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.Base58Encoder.html",
+          "hash": "liZgKnkunWNqsX2hNgFr3a9OnOJlhLPWbMfbira69vg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.BigEndianBuffer.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.BigEndianBuffer.html",
+          "hash": "ny6lomfsq1dswr7JLqZR7NwWKmcO9lVFN2aEfOhXiEc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.DataEncoder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.DataEncoder.html",
+          "hash": "20ZudlCuyLo5GuQqFmmmFTfh1o0hj/V2sDVxWn9ieNY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.Encoders.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.Encoders.html",
+          "hash": "5/aPOCpkHQsMV6TS0h+foazz29Uuh9NhZ8qJBlOU2yU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.IRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.IRandom.html",
+          "hash": "ycTxE2WvQd8UsnMNEKzHWbcug+7kLOMYahjoxY0ftgc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.RandomUtils.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.RandomUtils.html",
+          "hash": "DtsrewyGEGmxt7/1lyymm9tnbQBO7s2ts3NMp5lKlys="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.RngCryptoServiceProviderRandom.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.RngCryptoServiceProviderRandom.html",
+          "hash": "9fD2wusKVMWJ/PUmkdArNJBMyCIK+TRn1WuFfKcVA/c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Utilities.html",
+          "hash": "P98qh/QI+pSassQYYhP2l/tWIxGCTjbGHSPuU3namCQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.Wallet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.Wallet.html",
+          "hash": "w7HyrYQvRSoy6AlIDmlXmgTQe4QPfdEkqWq52Vkax4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Wallet.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Wallet.html",
+          "hash": "I/VEu6etQUSvJh18uklpsvzXk876eXQ8+ndSxJx+xk4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "nuCmsPISivGNVqgvZy+D88AHH1elRQAf81fOe+mj5ZY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/getting_started.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/getting_started.html",
+          "hash": "oQ4fnRqA0Y6aWwYqbM3w3RB/p4cEuBbR3OFJnkJUy5g="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/hello_world.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/hello_world.html",
+          "hash": "ylYpn8jpOI9JP5Fp8eBNVwNT2EXmh1g3bHmKZWIcA4M="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/imgs/memo.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/imgs/memo.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "articles/imgs/nuget.png",
+      "output": {
+        "resource": {
+          "relative_path": "articles/imgs/nuget.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/package_description.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/package_description.html",
+          "hash": "m0wapeLZotHYfF8d4sjvcyL1SsB/Nf3HzXKpSVMG0N8="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "boJbHzirsu5IIQG1xdZFFgE4zV0LK63tBEZAUzP6YQY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "Jv8ZvHS8fLDA0wf3OiksXO+kyv+5Fz8+EBpyl7djBBE="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "kM47DpV9OXf6KRdNKlDObh00YTPnlHCcew+5Q70xJgc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 4,
+          "skipped_file_count": 4
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 148,
+          "skipped_file_count": 107
+        },
+        "ResourceDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
