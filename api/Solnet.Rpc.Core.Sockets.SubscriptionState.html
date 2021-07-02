@@ -135,14 +135,78 @@
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public abstract class SubscriptionState</code></pre>
   </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState__ctor.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.%23ctor%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L69">View Source</a>
+  </span>
+  <a id="Solnet_Rpc_Core_Sockets_SubscriptionState__ctor_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor*"></a>
+  <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState__ctor" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor">SubscriptionState()</h4>
+  <div class="markdown level1 summary"><p>Default constructor to help setup tests.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SubscriptionState()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState__ctor_Solnet_Rpc_IStreamingRpcClient_Solnet_Rpc_Core_Sockets_SubscriptionChannel_System_Collections_Generic_IList_System_Object__.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.%23ctor(Solnet.Rpc.IStreamingRpcClient%2CSolnet.Rpc.Core.Sockets.SubscriptionChannel%2CSystem.Collections.Generic.IList%7BSystem.Object%7D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L59">View Source</a>
+  </span>
+  <a id="Solnet_Rpc_Core_Sockets_SubscriptionState__ctor_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor*"></a>
+  <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState__ctor_Solnet_Rpc_IStreamingRpcClient_Solnet_Rpc_Core_Sockets_SubscriptionChannel_System_Collections_Generic_IList_System_Object__" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor(Solnet.Rpc.IStreamingRpcClient,Solnet.Rpc.Core.Sockets.SubscriptionChannel,System.Collections.Generic.IList{System.Object})">SubscriptionState(IStreamingRpcClient, SubscriptionChannel, IList&lt;Object&gt;)</h4>
+  <div class="markdown level1 summary"><p>Base constructor.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected SubscriptionState(IStreamingRpcClient rpcClient, SubscriptionChannel chan, IList&lt;object&gt; aditionalParameters = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Solnet.Rpc.IStreamingRpcClient.html">IStreamingRpcClient</a></td>
+        <td><span class="parametername">rpcClient</span></td>
+        <td><p>The streaming rpc client reference.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Solnet.Rpc.Core.Sockets.SubscriptionChannel.html">SubscriptionChannel</a></td>
+        <td><span class="parametername">chan</span></td>
+        <td><p>The channel of this subscription.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<span class="xref">System.Object</span>&gt;</td>
+        <td><span class="parametername">aditionalParameters</span></td>
+        <td><p>Aditional parameters for this given subscription.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_AdditionalParameters.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.AdditionalParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_AdditionalParameters.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.AdditionalParameters%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L46">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L46">View Source</a>
   </span>
   <a id="Solnet_Rpc_Core_Sockets_SubscriptionState_AdditionalParameters_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.AdditionalParameters*"></a>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_AdditionalParameters" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.AdditionalParameters">AdditionalParameters</h4>
@@ -151,7 +215,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ImmutableList&lt;object&gt; AdditionalParameters { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ImmutableList&lt;object&gt; AdditionalParameters { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -170,10 +234,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_Channel.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.Channel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_Channel.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.Channel%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L26">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L26">View Source</a>
   </span>
   <a id="Solnet_Rpc_Core_Sockets_SubscriptionState_Channel_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.Channel*"></a>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_Channel" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.Channel">Channel</h4>
@@ -182,7 +246,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SubscriptionChannel Channel { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public SubscriptionChannel Channel { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -201,10 +265,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_LastCode.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.LastCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_LastCode.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.LastCode%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L41">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L41">View Source</a>
   </span>
   <a id="Solnet_Rpc_Core_Sockets_SubscriptionState_LastCode_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.LastCode*"></a>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_LastCode" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.LastCode">LastCode</h4>
@@ -213,7 +277,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string LastCode { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LastCode { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -232,10 +296,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_LastError.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.LastError%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_LastError.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.LastError%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L36">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L36">View Source</a>
   </span>
   <a id="Solnet_Rpc_Core_Sockets_SubscriptionState_LastError_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.LastError*"></a>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_LastError" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.LastError">LastError</h4>
@@ -244,7 +308,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string LastError { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string LastError { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -263,10 +327,10 @@
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_State.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_State.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.State%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L31">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L31">View Source</a>
   </span>
   <a id="Solnet_Rpc_Core_Sockets_SubscriptionState_State_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.State*"></a>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_State" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.State">State</h4>
@@ -275,7 +339,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SubscriptionStatus State { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public SubscriptionStatus State { get; protected set; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -296,10 +360,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_Unsubscribe.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.Unsubscribe%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_Unsubscribe.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.Unsubscribe%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L89">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L94">View Source</a>
   </span>
   <a id="Solnet_Rpc_Core_Sockets_SubscriptionState_Unsubscribe_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.Unsubscribe*"></a>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_Unsubscribe" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.Unsubscribe">Unsubscribe()</h4>
@@ -312,10 +376,10 @@
   </div>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_UnsubscribeAsync.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.UnsubscribeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_UnsubscribeAsync.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.UnsubscribeAsync%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L92">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L97">View Source</a>
   </span>
   <a id="Solnet_Rpc_Core_Sockets_SubscriptionState_UnsubscribeAsync_" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.UnsubscribeAsync*"></a>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_UnsubscribeAsync" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.UnsubscribeAsync">UnsubscribeAsync()</h4>
@@ -345,10 +409,10 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/128-docs-and-more-docs/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_SubscriptionChanged.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.SubscriptionChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Rpc_Core_Sockets_SubscriptionState_SubscriptionChanged.md&amp;value=---%0Auid%3A%20Solnet.Rpc.Core.Sockets.SubscriptionState.SubscriptionChanged%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/128-docs-and-more-docs/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L51">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Rpc/Core/Sockets/SubscriptionState.cs/#L51">View Source</a>
   </span>
   <h4 id="Solnet_Rpc_Core_Sockets_SubscriptionState_SubscriptionChanged" data-uid="Solnet.Rpc.Core.Sockets.SubscriptionState.SubscriptionChanged">SubscriptionChanged</h4>
   <div class="markdown level1 summary"><p>Event fired when the state of the subcription changes.</p>

@@ -147,7 +147,7 @@ Console.WriteLine($&quot;TxHash: {transactionHash.Result}&quot;);
 <p>To start using the <code>IStreamingRpcClient</code> is very similar to the <code>IRpcClient</code>, just need to call the <code>ClientFactory</code> to construct a new client. Be mindful that you use the same cluster, or the streaming client won't know about the transaction you just created in another cluster using the other client.</p>
 <pre><code>IStreamingRpcClient streamingRpcClient = ClientFactory.GetStreamingClient(Cluster.TestNet);
 
-streamingRpcClient.Init().Wait();
+streamingRpcClient.ConnectAsync().Wait();
 </code></pre>
 <p>Now we are connected using WebSockets to the cluster and ready to subscribe to data changes. In this case, we'll subscribe to the transaction confirmation.</p>
 <pre><code>var subscription = streamingRpcClient.SubscribeSignature(transactionHash.Result, (sub, data) =&gt;
@@ -196,9 +196,10 @@ Console.WriteLine($&quot;TxHash: {txHash.Result}&quot;);
 You should be presented with all the details, and most important:</p>
 <p><img src="imgs/memo.png" alt="Confirmed Transaction With Memo"></p>
 <p><strong>Congratulations, you just called your first on-chain Solana program :)</strong></p>
+<p>You can see the entire example on our <a href="https://github.com/bmresearch/Solnet/blob/master/src/Solnet.Examples/HelloWorldExample.cs">github</a>.</p>
 <p>Next steps:
-Add links to more programs ??????
-Read the docs (api)</p>
+See more <a href="https://github.com/bmresearch/Solnet/blob/master/src/Solnet.Examples/">examples</a>.</p>
+<p>Read the <a href="../api/Solnet.Wallet.html">API</a>.</p>
 </article>
               
                 </div>

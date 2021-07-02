@@ -2488,6 +2488,14 @@ references:
   fullName.vb: Solnet.Rpc.Core.Http.RequestResult(Of T)
   nameWithType: RequestResult<T>
   nameWithType.vb: RequestResult(Of T)
+- uid: Solnet.Rpc.Core.Http.RequestResult`1.#ctor
+  name: RequestResult()
+  href: api/Solnet.Rpc.Core.Http.RequestResult-1.html#Solnet_Rpc_Core_Http_RequestResult_1__ctor
+  commentId: M:Solnet.Rpc.Core.Http.RequestResult`1.#ctor
+  fullName: Solnet.Rpc.Core.Http.RequestResult<T>.RequestResult()
+  fullName.vb: Solnet.Rpc.Core.Http.RequestResult(Of T).RequestResult()
+  nameWithType: RequestResult<T>.RequestResult()
+  nameWithType.vb: RequestResult(Of T).RequestResult()
 - uid: Solnet.Rpc.Core.Http.RequestResult`1.#ctor(System.Net.Http.HttpResponseMessage,`0)
   name: RequestResult(HttpResponseMessage, T)
   href: api/Solnet.Rpc.Core.Http.RequestResult-1.html#Solnet_Rpc_Core_Http_RequestResult_1__ctor_System_Net_Http_HttpResponseMessage__0_
@@ -2678,6 +2686,19 @@ references:
   commentId: T:Solnet.Rpc.Core.Sockets.SubscriptionEvent
   fullName: Solnet.Rpc.Core.Sockets.SubscriptionEvent
   nameWithType: SubscriptionEvent
+- uid: Solnet.Rpc.Core.Sockets.SubscriptionEvent.#ctor(Solnet.Rpc.Core.Sockets.SubscriptionStatus,System.String,System.String)
+  name: SubscriptionEvent(SubscriptionStatus, String, String)
+  href: api/Solnet.Rpc.Core.Sockets.SubscriptionEvent.html#Solnet_Rpc_Core_Sockets_SubscriptionEvent__ctor_Solnet_Rpc_Core_Sockets_SubscriptionStatus_System_String_System_String_
+  commentId: M:Solnet.Rpc.Core.Sockets.SubscriptionEvent.#ctor(Solnet.Rpc.Core.Sockets.SubscriptionStatus,System.String,System.String)
+  fullName: Solnet.Rpc.Core.Sockets.SubscriptionEvent.SubscriptionEvent(Solnet.Rpc.Core.Sockets.SubscriptionStatus, System.String, System.String)
+  nameWithType: SubscriptionEvent.SubscriptionEvent(SubscriptionStatus, String, String)
+- uid: Solnet.Rpc.Core.Sockets.SubscriptionEvent.#ctor*
+  name: SubscriptionEvent
+  href: api/Solnet.Rpc.Core.Sockets.SubscriptionEvent.html#Solnet_Rpc_Core_Sockets_SubscriptionEvent__ctor_
+  commentId: Overload:Solnet.Rpc.Core.Sockets.SubscriptionEvent.#ctor
+  isSpec: "True"
+  fullName: Solnet.Rpc.Core.Sockets.SubscriptionEvent.SubscriptionEvent
+  nameWithType: SubscriptionEvent.SubscriptionEvent
 - uid: Solnet.Rpc.Core.Sockets.SubscriptionEvent.Code
   name: Code
   href: api/Solnet.Rpc.Core.Sockets.SubscriptionEvent.html#Solnet_Rpc_Core_Sockets_SubscriptionEvent_Code
@@ -2723,6 +2744,28 @@ references:
   commentId: T:Solnet.Rpc.Core.Sockets.SubscriptionState
   fullName: Solnet.Rpc.Core.Sockets.SubscriptionState
   nameWithType: SubscriptionState
+- uid: Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor
+  name: SubscriptionState()
+  href: api/Solnet.Rpc.Core.Sockets.SubscriptionState.html#Solnet_Rpc_Core_Sockets_SubscriptionState__ctor
+  commentId: M:Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor
+  fullName: Solnet.Rpc.Core.Sockets.SubscriptionState.SubscriptionState()
+  nameWithType: SubscriptionState.SubscriptionState()
+- uid: Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor(Solnet.Rpc.IStreamingRpcClient,Solnet.Rpc.Core.Sockets.SubscriptionChannel,System.Collections.Generic.IList{System.Object})
+  name: SubscriptionState(IStreamingRpcClient, SubscriptionChannel, IList<Object>)
+  href: api/Solnet.Rpc.Core.Sockets.SubscriptionState.html#Solnet_Rpc_Core_Sockets_SubscriptionState__ctor_Solnet_Rpc_IStreamingRpcClient_Solnet_Rpc_Core_Sockets_SubscriptionChannel_System_Collections_Generic_IList_System_Object__
+  commentId: M:Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor(Solnet.Rpc.IStreamingRpcClient,Solnet.Rpc.Core.Sockets.SubscriptionChannel,System.Collections.Generic.IList{System.Object})
+  name.vb: SubscriptionState(IStreamingRpcClient, SubscriptionChannel, IList(Of Object))
+  fullName: Solnet.Rpc.Core.Sockets.SubscriptionState.SubscriptionState(Solnet.Rpc.IStreamingRpcClient, Solnet.Rpc.Core.Sockets.SubscriptionChannel, System.Collections.Generic.IList<System.Object>)
+  fullName.vb: Solnet.Rpc.Core.Sockets.SubscriptionState.SubscriptionState(Solnet.Rpc.IStreamingRpcClient, Solnet.Rpc.Core.Sockets.SubscriptionChannel, System.Collections.Generic.IList(Of System.Object))
+  nameWithType: SubscriptionState.SubscriptionState(IStreamingRpcClient, SubscriptionChannel, IList<Object>)
+  nameWithType.vb: SubscriptionState.SubscriptionState(IStreamingRpcClient, SubscriptionChannel, IList(Of Object))
+- uid: Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor*
+  name: SubscriptionState
+  href: api/Solnet.Rpc.Core.Sockets.SubscriptionState.html#Solnet_Rpc_Core_Sockets_SubscriptionState__ctor_
+  commentId: Overload:Solnet.Rpc.Core.Sockets.SubscriptionState.#ctor
+  isSpec: "True"
+  fullName: Solnet.Rpc.Core.Sockets.SubscriptionState.SubscriptionState
+  nameWithType: SubscriptionState.SubscriptionState
 - uid: Solnet.Rpc.Core.Sockets.SubscriptionState.AdditionalParameters
   name: AdditionalParameters
   href: api/Solnet.Rpc.Core.Sockets.SubscriptionState.html#Solnet_Rpc_Core_Sockets_SubscriptionState_AdditionalParameters
@@ -8715,6 +8758,15 @@ references:
   fullName.vb: Solnet.Wallet.PrivateKey.PrivateKey(System.Byte())
   nameWithType: PrivateKey.PrivateKey(Byte[])
   nameWithType.vb: PrivateKey.PrivateKey(Byte())
+- uid: Solnet.Wallet.PrivateKey.#ctor(System.ReadOnlySpan{System.Byte})
+  name: PrivateKey(ReadOnlySpan<Byte>)
+  href: api/Solnet.Wallet.PrivateKey.html#Solnet_Wallet_PrivateKey__ctor_System_ReadOnlySpan_System_Byte__
+  commentId: M:Solnet.Wallet.PrivateKey.#ctor(System.ReadOnlySpan{System.Byte})
+  name.vb: PrivateKey(ReadOnlySpan(Of Byte))
+  fullName: Solnet.Wallet.PrivateKey.PrivateKey(System.ReadOnlySpan<System.Byte>)
+  fullName.vb: Solnet.Wallet.PrivateKey.PrivateKey(System.ReadOnlySpan(Of System.Byte))
+  nameWithType: PrivateKey.PrivateKey(ReadOnlySpan<Byte>)
+  nameWithType.vb: PrivateKey.PrivateKey(ReadOnlySpan(Of Byte))
 - uid: Solnet.Wallet.PrivateKey.#ctor(System.String)
   name: PrivateKey(String)
   href: api/Solnet.Wallet.PrivateKey.html#Solnet_Wallet_PrivateKey__ctor_System_String_
@@ -8731,13 +8783,27 @@ references:
 - uid: Solnet.Wallet.PrivateKey.Key
   name: Key
   href: api/Solnet.Wallet.PrivateKey.html#Solnet_Wallet_PrivateKey_Key
-  commentId: F:Solnet.Wallet.PrivateKey.Key
+  commentId: P:Solnet.Wallet.PrivateKey.Key
+  fullName: Solnet.Wallet.PrivateKey.Key
+  nameWithType: PrivateKey.Key
+- uid: Solnet.Wallet.PrivateKey.Key*
+  name: Key
+  href: api/Solnet.Wallet.PrivateKey.html#Solnet_Wallet_PrivateKey_Key_
+  commentId: Overload:Solnet.Wallet.PrivateKey.Key
+  isSpec: "True"
   fullName: Solnet.Wallet.PrivateKey.Key
   nameWithType: PrivateKey.Key
 - uid: Solnet.Wallet.PrivateKey.KeyBytes
   name: KeyBytes
   href: api/Solnet.Wallet.PrivateKey.html#Solnet_Wallet_PrivateKey_KeyBytes
-  commentId: F:Solnet.Wallet.PrivateKey.KeyBytes
+  commentId: P:Solnet.Wallet.PrivateKey.KeyBytes
+  fullName: Solnet.Wallet.PrivateKey.KeyBytes
+  nameWithType: PrivateKey.KeyBytes
+- uid: Solnet.Wallet.PrivateKey.KeyBytes*
+  name: KeyBytes
+  href: api/Solnet.Wallet.PrivateKey.html#Solnet_Wallet_PrivateKey_KeyBytes_
+  commentId: Overload:Solnet.Wallet.PrivateKey.KeyBytes
+  isSpec: "True"
   fullName: Solnet.Wallet.PrivateKey.KeyBytes
   nameWithType: PrivateKey.KeyBytes
 - uid: Solnet.Wallet.PrivateKey.op_Explicit(System.Byte[])~Solnet.Wallet.PrivateKey
@@ -8811,6 +8877,15 @@ references:
   fullName.vb: Solnet.Wallet.PublicKey.PublicKey(System.Byte())
   nameWithType: PublicKey.PublicKey(Byte[])
   nameWithType.vb: PublicKey.PublicKey(Byte())
+- uid: Solnet.Wallet.PublicKey.#ctor(System.ReadOnlySpan{System.Byte})
+  name: PublicKey(ReadOnlySpan<Byte>)
+  href: api/Solnet.Wallet.PublicKey.html#Solnet_Wallet_PublicKey__ctor_System_ReadOnlySpan_System_Byte__
+  commentId: M:Solnet.Wallet.PublicKey.#ctor(System.ReadOnlySpan{System.Byte})
+  name.vb: PublicKey(ReadOnlySpan(Of Byte))
+  fullName: Solnet.Wallet.PublicKey.PublicKey(System.ReadOnlySpan<System.Byte>)
+  fullName.vb: Solnet.Wallet.PublicKey.PublicKey(System.ReadOnlySpan(Of System.Byte))
+  nameWithType: PublicKey.PublicKey(ReadOnlySpan<Byte>)
+  nameWithType.vb: PublicKey.PublicKey(ReadOnlySpan(Of Byte))
 - uid: Solnet.Wallet.PublicKey.#ctor(System.String)
   name: PublicKey(String)
   href: api/Solnet.Wallet.PublicKey.html#Solnet_Wallet_PublicKey__ctor_System_String_
@@ -8827,13 +8902,27 @@ references:
 - uid: Solnet.Wallet.PublicKey.Key
   name: Key
   href: api/Solnet.Wallet.PublicKey.html#Solnet_Wallet_PublicKey_Key
-  commentId: F:Solnet.Wallet.PublicKey.Key
+  commentId: P:Solnet.Wallet.PublicKey.Key
+  fullName: Solnet.Wallet.PublicKey.Key
+  nameWithType: PublicKey.Key
+- uid: Solnet.Wallet.PublicKey.Key*
+  name: Key
+  href: api/Solnet.Wallet.PublicKey.html#Solnet_Wallet_PublicKey_Key_
+  commentId: Overload:Solnet.Wallet.PublicKey.Key
+  isSpec: "True"
   fullName: Solnet.Wallet.PublicKey.Key
   nameWithType: PublicKey.Key
 - uid: Solnet.Wallet.PublicKey.KeyBytes
   name: KeyBytes
   href: api/Solnet.Wallet.PublicKey.html#Solnet_Wallet_PublicKey_KeyBytes
-  commentId: F:Solnet.Wallet.PublicKey.KeyBytes
+  commentId: P:Solnet.Wallet.PublicKey.KeyBytes
+  fullName: Solnet.Wallet.PublicKey.KeyBytes
+  nameWithType: PublicKey.KeyBytes
+- uid: Solnet.Wallet.PublicKey.KeyBytes*
+  name: KeyBytes
+  href: api/Solnet.Wallet.PublicKey.html#Solnet_Wallet_PublicKey_KeyBytes_
+  commentId: Overload:Solnet.Wallet.PublicKey.KeyBytes
+  isSpec: "True"
   fullName: Solnet.Wallet.PublicKey.KeyBytes
   nameWithType: PublicKey.KeyBytes
 - uid: Solnet.Wallet.PublicKey.op_Explicit(System.Byte[])~Solnet.Wallet.PublicKey
