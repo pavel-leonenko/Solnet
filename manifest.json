@@ -36,7 +36,7 @@
           "hash": "wl+DcQ3BRCblTVN3VIspPH5OkzGoqeS+XpSMRi6wSjE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -60,7 +60,7 @@
           "hash": "UhKx9+PODSghJa9CmnrAAAONARPdrl4GawMNHl/fBPg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -72,7 +72,7 @@
           "hash": "cBLFcj3oFVNgzjlpD1yESefFszuAfZFmIB+X22ZkgWE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -84,7 +84,7 @@
           "hash": "ZbPDM81SY+/k+HOFaFdRvn13TMuHFFh15angS9xVSyY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -96,7 +96,7 @@
           "hash": "auPC1puqH3ytiO9LXFzG/JGn3S8UDKs7dtkGKXskt8k="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -108,7 +108,7 @@
           "hash": "KYJix9naOGoiQZ30+BN89kTXleSDmGP332YNKraG3xg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.KeyStore.Model.CryptoInfo-1.html",
-          "hash": "axs6XO197j4BOejCLOfAQDOSkxp5ZM+sKCFfxHBjIlE="
+          "hash": "i73UoBQgbs7NXkhnkYKh81/ULeVSrIuunZnfvZjgwro="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -144,7 +144,7 @@
           "hash": "YnFGf4Br69VwFN5VQ7mxDOCaA3rcoOuOqXY8stcGry0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -165,10 +165,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.KeyStore.Model.KeyStore-1.html",
-          "hash": "KDfCte8rpalZbOQ9a/5Err1t0AvBpG6ExRXW+LOG91k="
+          "hash": "199CiY6DbBSS5A3kz0CfLFp/4brjYVA/U6B8AELnrZE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -180,7 +180,7 @@
           "hash": "ZACphM5/KEZJ4HnxI1re8q+EashLTGq9wESODNeusNI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -192,7 +192,7 @@
           "hash": "CmRtmWd5V9SsE6VBoE5LSGovvrG9zZUF90iP145Zlow="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -204,7 +204,7 @@
           "hash": "NoGulqur3NZxymo8iiO6Ohb8cautPl/XpPppTV24nCM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -216,7 +216,7 @@
           "hash": "+w+jDMo5SeGwy5GZKFJc8p0lgW5Ca3DxMmGvHvEexnA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -261,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.KeyStore.Services.ISecretKeyStoreService-1.html",
-          "hash": "EVHZbf7NjBeEViGc/WsoiS3Dp4VsKuF+LUTmRPPAfAo="
+          "hash": "Ki+B5Q9IZFXfUh80Iu7rWOLfH5CA+xhIHNyZ7Yco60w="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -276,7 +276,7 @@
           "hash": "RE6TmhyZy3oARXdd/dMi3/BBJaMCfhVwM2zri1pWdEc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -288,7 +288,7 @@
           "hash": "QfCJbAwqsnpObe3+nCR4ZSj4X4vlrK+QjB487Kwyzso="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -300,7 +300,7 @@
           "hash": "lyiknh8BSB3tHvqeil61K0B0Ozu6nfsNT2DW2x9HCQg="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -312,7 +312,7 @@
           "hash": "ZqWlaQD8s4qTyQxteO1exm5wat6KBc+0DRSXpziYzlU="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -348,7 +348,43 @@
           "hash": "TB7qkqII8nzocCY99xA+xQ5zu1gqmTCeUgJMy22DeTI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.Abstract.ByteFlag.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.Abstract.ByteFlag.html",
+          "hash": "YIn8sdaw56asQlZDu4g5AEk0KlXz19Yld5M4YUbZ2Qs="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.Abstract.Flag-1.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.Abstract.Flag-1.html",
+          "hash": "jUWIGPq/4wnxHbvjjWqmHD3mu1w5FCuCYLB30zAIYr4="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.Abstract.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.Abstract.html",
+          "hash": "6SQWzpo48loYCg90zZKstDPw5zkq/0LDg/wP7PxNvtk="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -393,7 +429,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.Programs.NameServiceProgram.html",
-          "hash": "SD8zYwie1XGT8iHdQNpTRlWVmIJQFvCXReTxWd3hT68="
+          "hash": "YmKCetHtt8SEwqa2sljCzBtJjowv3REC3NIrVDByHZA="
         }
       },
       "is_incremental": true,
@@ -405,7 +441,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.Programs.SharedMemoryProgram.html",
-          "hash": "hfr3MIsxsFeyBMn3lkIBEDkKlQj907mN5ymvaUuyzRA="
+          "hash": "3CzOqM1ewLvaXXHKVMxBvlKsJOTNVee2Pcct12inpUk="
         }
       },
       "is_incremental": true,
@@ -437,11 +473,35 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Solnet.Programs.Utils.yml",
+      "source_relative_path": "api/Solnet.Programs.Utilities.Deserialization.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Solnet.Programs.Utils.html",
-          "hash": "hV4WexnfVtHvH9/hzSqeHw3fPdSsHIRuTV0EDe0DxKs="
+          "relative_path": "api/Solnet.Programs.Utilities.Deserialization.html",
+          "hash": "mEInDETMQXUc8F9Cwr+jYLWtIBT9vWhnOICHBLRB0Ds="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.Utilities.Serialization.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.Utilities.Serialization.html",
+          "hash": "g8fHRATo1j4Am8WOEY7sjsNdR6tynE+M08x3Dx0VIEo="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Solnet.Programs.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Solnet.Programs.Utilities.html",
+          "hash": "oYLXXGEI9iADTqSCtSzIKT72aQZcjn5yPhy/6xF9Ucs="
         }
       },
       "is_incremental": true,
@@ -453,7 +513,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.Programs.html",
-          "hash": "MATOt59v0Ok7eSZK8asUVvELvoTPrypOxJT07yfxCBk="
+          "hash": "zmvWTnMfKvi9ncQFBZcbhbAuQztJlblOut8czyj+0SQ="
         }
       },
       "is_incremental": true,
@@ -492,7 +552,7 @@
           "hash": "ZWKo6xQ9BOFJolUKVxiq299DoZCmyhVECaKv/0jWC7g="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -552,7 +612,7 @@
           "hash": "HwgU323uzRw2zss7gcZK3oM7HOU8995ZVjeibhv4Gkk="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -564,7 +624,7 @@
           "hash": "o3DdrUyNDygITCaqhNCOYRzb35jOWqHqCzOjl5vuQfs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -588,7 +648,7 @@
           "hash": "3qnTAils38qMl0icvBpd91M5e6gcX1sJ+xPOnX2UCOs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -612,7 +672,7 @@
           "hash": "wDRKZvoUy2pMMtqCBIe+l45CNzop2UZV1pkAomjqP/U="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -648,7 +708,7 @@
           "hash": "5jm3dVm4C1gyN546j/OEtC3jaRCK6q2rkJRl625j6iw="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -660,7 +720,7 @@
           "hash": "Wi1ux0qLQiX3fb1hsJab8wGErwpHxEPB88rKNoLZBe8="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -672,7 +732,7 @@
           "hash": "jVTz0d6Vwfvu8zxwpiuQ7ND4qKywkl+v9MRCSceOQMs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -684,7 +744,7 @@
           "hash": "FWKVLGJJPPMT1+DRt9GX8EDZ7STByQGKBklGNuuLk4Y="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -720,7 +780,7 @@
           "hash": "Ok4QWeDNyhlZSXeQ4uvuhYcD9AQPMYJeC4vIXYA8ztY="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -732,7 +792,7 @@
           "hash": "bcy2yH9CuiesD4bjjb/wf9TujznD1a6LN4ANga86uiA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -744,7 +804,7 @@
           "hash": "w6cBZS6vzZlovKmotQx0OkTgzCxfJBokpSoBlaG8go0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -756,7 +816,7 @@
           "hash": "iEcjMWwDq1lge8u/Yuhsv3Uv/g0+gQu6WfY9treSsF0="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -768,7 +828,7 @@
           "hash": "FnGhdBoS+bq4BlTa+HNrMk50dNwInu/K9ZJRCqplYMI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1032,7 +1092,7 @@
           "hash": "SsgjY0p0OcdQWC3l2Z/joBhmHloTdrhAGhbtZaD/bpA="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1044,7 +1104,7 @@
           "hash": "G8q6fVA61mgH29NriEizSterfu56RAG6b71HOl/7i+g="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1056,7 +1116,7 @@
           "hash": "l1ZDYtNURwtwHpgf/JVOlTnTNIjxXGUjQHd1cMLmEFE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1212,7 +1272,7 @@
           "hash": "KYeBXHVBn7bx0op3gGskYsBRVAADxjWcLvORwLUNzrE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1236,7 +1296,7 @@
           "hash": "+HzWIwxr6Mfx/G5A2ldqX1zHlyjhvTDMBJLf+xkZBMc="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1260,7 +1320,7 @@
           "hash": "+xg4e+BBh6EwoqCTTkabfdQ7vE24foDaJeS64e1a4ik="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1305,10 +1365,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.Rpc.Models.TransactionErrorJsonConverter.html",
-          "hash": "3or4A6NYpH4sm1DAflTtlWB/9tZWSdsbPTxxUlBVfG0="
+          "hash": "1Eqjk9PYXk1JHiw5nw7Lfnp1MRWFiGY1M47rXxQq7YM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1380,7 +1440,7 @@
           "hash": "KS4XNmUgV8Nq6SZQer4TsxgzwDAX8qe5Ph5FQWJOpbI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1392,7 +1452,7 @@
           "hash": "VX2P9WieEids1GbEFWL9spsKPwlQRvrOcdmRIAh9QFE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1425,10 +1485,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.Rpc.Models.html",
-          "hash": "74htfBZ+epFEQ1GABONr5Rx7xkkVAhhjqiZwIVv7W9E="
+          "hash": "p279ph+17HVDgLtSo3I8nTYNFr5vYoAuR6YaLde2sJE="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1536,7 +1596,7 @@
           "hash": "8Q7jqpwZ7BGgQgK45LTnH5+Ye/sze48p0c4gJMNg4hI="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1668,7 +1728,7 @@
           "hash": "Fgp77blomEdf6WAYVGzli3vQZ+ywzMsAraD3maaegSM="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1692,7 +1752,7 @@
           "hash": "WCQshQmEdjyvRx9o6FhXQ9abeRNEe2EYWZ5rWjSaaCs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1737,10 +1797,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Solnet.Wallet.Utilities.RngCryptoServiceProviderRandom.html",
-          "hash": "P3HpvqVB/898A7yMdXtaqdGNa5AHk9+gudfWaqt8UDY="
+          "hash": "NulmXtKKjQ3XYPknoecunWiYRIxZ5Q+jK6sXsuoTe0c="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1752,7 +1812,7 @@
           "hash": "P98qh/QI+pSassQYYhP2l/tWIxGCTjbGHSPuU3namCQ="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1785,7 +1845,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "nuCmsPISivGNVqgvZy+D88AHH1elRQAf81fOe+mj5ZY="
+          "hash": "9hmiERflMG6YrejIvj9PyGta+cAfuKR2iQmil+VIddk="
         }
       },
       "is_incremental": false,
@@ -1812,7 +1872,7 @@
           "hash": "fDn53N7CZ5cwxHisIxoEQTDToigEQE3nNdz3N/XWxAs="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -1899,13 +1959,13 @@
           "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 4,
-          "skipped_file_count": 3
+          "skipped_file_count": 4
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 148,
-          "skipped_file_count": 122
+          "total_file_count": 153,
+          "skipped_file_count": 153
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

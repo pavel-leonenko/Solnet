@@ -100,7 +100,7 @@
   <div class="markdown level0 summary"><p>Helper class for the Shared Memory Program.
 <remarks>
 Used to write data to a given account data.
-Note: this programm, as of writting this, was inactive in some clusters.
+Note: this program, as of writing this, was inactive in some clusters.
 </remarks></p>
 </div>
   <div class="markdown level0 conceptual"></div>
@@ -146,7 +146,7 @@ Note: this programm, as of writting this, was inactive in some clusters.
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_SharedMemoryProgram_ProgramId.md&amp;value=---%0Auid%3A%20Solnet.Programs.SharedMemoryProgram.ProgramId%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/SharedMemoryProgram.cs/#L21">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/SharedMemoryProgram.cs/#L23">View Source</a>
   </span>
   <h4 id="Solnet_Programs_SharedMemoryProgram_ProgramId" data-uid="Solnet.Programs.SharedMemoryProgram.ProgramId">ProgramId</h4>
   <div class="markdown level1 summary"><p>The address of the Shared Memory Program.</p>
@@ -175,20 +175,20 @@ Note: this programm, as of writting this, was inactive in some clusters.
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_SharedMemoryProgram_Write_Solnet_Wallet_PublicKey_System_Byte___System_UInt64_.md&amp;value=---%0Auid%3A%20Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey%2CSystem.Byte%5B%5D%2CSystem.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_SharedMemoryProgram_Write_Solnet_Wallet_PublicKey_System_ReadOnlySpan_System_Byte__System_UInt64_.md&amp;value=---%0Auid%3A%20Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.UInt64)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/SharedMemoryProgram.cs/#L31">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/SharedMemoryProgram.cs/#L33">View Source</a>
   </span>
   <a id="Solnet_Programs_SharedMemoryProgram_Write_" data-uid="Solnet.Programs.SharedMemoryProgram.Write*"></a>
-  <h4 id="Solnet_Programs_SharedMemoryProgram_Write_Solnet_Wallet_PublicKey_System_Byte___System_UInt64_" data-uid="Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey,System.Byte[],System.UInt64)">Write(PublicKey, Byte[], UInt64)</h4>
+  <h4 id="Solnet_Programs_SharedMemoryProgram_Write_Solnet_Wallet_PublicKey_System_ReadOnlySpan_System_Byte__System_UInt64_" data-uid="Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey,System.ReadOnlySpan{System.Byte},System.UInt64)">Write(PublicKey, ReadOnlySpan&lt;Byte&gt;, UInt64)</h4>
   <div class="markdown level1 summary"><p>Creates an instruction used to interact with the Shared memory program.
 This instruction writes data to a given program starting at a specific offset.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TransactionInstruction Write(PublicKey dest, byte[] payload, ulong offset)</code></pre>
+    <pre><code class="lang-csharp hljs">public static TransactionInstruction Write(PublicKey dest, ReadOnlySpan&lt;byte&gt; payload, ulong offset)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -207,7 +207,7 @@ This instruction writes data to a given program starting at a specific offset.</
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
         <td><span class="parametername">payload</span></td>
         <td><p>The data to be written.</p>
 </td>

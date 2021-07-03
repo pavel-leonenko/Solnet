@@ -1632,6 +1632,178 @@ references:
   commentId: N:Solnet.Programs
   fullName: Solnet.Programs
   nameWithType: Solnet.Programs
+- uid: Solnet.Programs.Abstract
+  name: Solnet.Programs.Abstract
+  href: api/Solnet.Programs.Abstract.html
+  commentId: N:Solnet.Programs.Abstract
+  fullName: Solnet.Programs.Abstract
+  nameWithType: Solnet.Programs.Abstract
+- uid: Solnet.Programs.Abstract.ByteFlag
+  name: ByteFlag
+  href: api/Solnet.Programs.Abstract.ByteFlag.html
+  commentId: T:Solnet.Programs.Abstract.ByteFlag
+  fullName: Solnet.Programs.Abstract.ByteFlag
+  nameWithType: ByteFlag
+- uid: Solnet.Programs.Abstract.ByteFlag.#ctor(System.Byte)
+  name: ByteFlag(Byte)
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag__ctor_System_Byte_
+  commentId: M:Solnet.Programs.Abstract.ByteFlag.#ctor(System.Byte)
+  fullName: Solnet.Programs.Abstract.ByteFlag.ByteFlag(System.Byte)
+  nameWithType: ByteFlag.ByteFlag(Byte)
+- uid: Solnet.Programs.Abstract.ByteFlag.#ctor*
+  name: ByteFlag
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag__ctor_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.#ctor
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.ByteFlag
+  nameWithType: ByteFlag.ByteFlag
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit0
+  name: Bit0
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit0
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit0
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit0
+  nameWithType: ByteFlag.Bit0
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit0*
+  name: Bit0
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit0_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit0
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit0
+  nameWithType: ByteFlag.Bit0
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit1
+  name: Bit1
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit1
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit1
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit1
+  nameWithType: ByteFlag.Bit1
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit1*
+  name: Bit1
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit1_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit1
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit1
+  nameWithType: ByteFlag.Bit1
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit2
+  name: Bit2
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit2
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit2
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit2
+  nameWithType: ByteFlag.Bit2
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit2*
+  name: Bit2
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit2_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit2
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit2
+  nameWithType: ByteFlag.Bit2
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit3
+  name: Bit3
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit3
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit3
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit3
+  nameWithType: ByteFlag.Bit3
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit3*
+  name: Bit3
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit3_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit3
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit3
+  nameWithType: ByteFlag.Bit3
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit4
+  name: Bit4
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit4
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit4
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit4
+  nameWithType: ByteFlag.Bit4
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit4*
+  name: Bit4
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit4_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit4
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit4
+  nameWithType: ByteFlag.Bit4
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit5
+  name: Bit5
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit5
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit5
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit5
+  nameWithType: ByteFlag.Bit5
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit5*
+  name: Bit5
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit5_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit5
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit5
+  nameWithType: ByteFlag.Bit5
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit6
+  name: Bit6
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit6
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit6
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit6
+  nameWithType: ByteFlag.Bit6
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit6*
+  name: Bit6
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit6_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit6
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit6
+  nameWithType: ByteFlag.Bit6
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit7
+  name: Bit7
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit7
+  commentId: P:Solnet.Programs.Abstract.ByteFlag.Bit7
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit7
+  nameWithType: ByteFlag.Bit7
+- uid: Solnet.Programs.Abstract.ByteFlag.Bit7*
+  name: Bit7
+  href: api/Solnet.Programs.Abstract.ByteFlag.html#Solnet_Programs_Abstract_ByteFlag_Bit7_
+  commentId: Overload:Solnet.Programs.Abstract.ByteFlag.Bit7
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.ByteFlag.Bit7
+  nameWithType: ByteFlag.Bit7
+- uid: Solnet.Programs.Abstract.Flag`1
+  name: Flag<T>
+  href: api/Solnet.Programs.Abstract.Flag-1.html
+  commentId: T:Solnet.Programs.Abstract.Flag`1
+  name.vb: Flag(Of T)
+  fullName: Solnet.Programs.Abstract.Flag<T>
+  fullName.vb: Solnet.Programs.Abstract.Flag(Of T)
+  nameWithType: Flag<T>
+  nameWithType.vb: Flag(Of T)
+- uid: Solnet.Programs.Abstract.Flag`1.#ctor(`0)
+  name: Flag(T)
+  href: api/Solnet.Programs.Abstract.Flag-1.html#Solnet_Programs_Abstract_Flag_1__ctor__0_
+  commentId: M:Solnet.Programs.Abstract.Flag`1.#ctor(`0)
+  fullName: Solnet.Programs.Abstract.Flag<T>.Flag(T)
+  fullName.vb: Solnet.Programs.Abstract.Flag(Of T).Flag(T)
+  nameWithType: Flag<T>.Flag(T)
+  nameWithType.vb: Flag(Of T).Flag(T)
+- uid: Solnet.Programs.Abstract.Flag`1.#ctor*
+  name: Flag
+  href: api/Solnet.Programs.Abstract.Flag-1.html#Solnet_Programs_Abstract_Flag_1__ctor_
+  commentId: Overload:Solnet.Programs.Abstract.Flag`1.#ctor
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.Flag<T>.Flag
+  fullName.vb: Solnet.Programs.Abstract.Flag(Of T).Flag
+  nameWithType: Flag<T>.Flag
+  nameWithType.vb: Flag(Of T).Flag
+- uid: Solnet.Programs.Abstract.Flag`1.Value
+  name: Value
+  href: api/Solnet.Programs.Abstract.Flag-1.html#Solnet_Programs_Abstract_Flag_1_Value
+  commentId: P:Solnet.Programs.Abstract.Flag`1.Value
+  fullName: Solnet.Programs.Abstract.Flag<T>.Value
+  fullName.vb: Solnet.Programs.Abstract.Flag(Of T).Value
+  nameWithType: Flag<T>.Value
+  nameWithType.vb: Flag(Of T).Value
+- uid: Solnet.Programs.Abstract.Flag`1.Value*
+  name: Value
+  href: api/Solnet.Programs.Abstract.Flag-1.html#Solnet_Programs_Abstract_Flag_1_Value_
+  commentId: Overload:Solnet.Programs.Abstract.Flag`1.Value
+  isSpec: "True"
+  fullName: Solnet.Programs.Abstract.Flag<T>.Value
+  fullName.vb: Solnet.Programs.Abstract.Flag(Of T).Value
+  nameWithType: Flag<T>.Value
+  nameWithType.vb: Flag(Of T).Value
 - uid: Solnet.Programs.AssociatedTokenAccountProgram
   name: AssociatedTokenAccountProgram
   href: api/Solnet.Programs.AssociatedTokenAccountProgram.html
@@ -1725,12 +1897,12 @@ references:
   isSpec: "True"
   fullName: Solnet.Programs.NameServiceProgram.ComputeHashedName
   nameWithType: NameServiceProgram.ComputeHashedName
-- uid: Solnet.Programs.NameServiceProgram.CreateNameRegistry(Solnet.Wallet.PublicKey,Solnet.Wallet.Account,Solnet.Wallet.PublicKey,System.UInt64,System.Int32,Solnet.Wallet.Account,Solnet.Wallet.Account,Solnet.Wallet.PublicKey)
-  name: CreateNameRegistry(PublicKey, Account, PublicKey, UInt64, Int32, Account, Account, PublicKey)
-  href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_CreateNameRegistry_Solnet_Wallet_PublicKey_Solnet_Wallet_Account_Solnet_Wallet_PublicKey_System_UInt64_System_Int32_Solnet_Wallet_Account_Solnet_Wallet_Account_Solnet_Wallet_PublicKey_
-  commentId: M:Solnet.Programs.NameServiceProgram.CreateNameRegistry(Solnet.Wallet.PublicKey,Solnet.Wallet.Account,Solnet.Wallet.PublicKey,System.UInt64,System.Int32,Solnet.Wallet.Account,Solnet.Wallet.Account,Solnet.Wallet.PublicKey)
-  fullName: Solnet.Programs.NameServiceProgram.CreateNameRegistry(Solnet.Wallet.PublicKey, Solnet.Wallet.Account, Solnet.Wallet.PublicKey, System.UInt64, System.Int32, Solnet.Wallet.Account, Solnet.Wallet.Account, Solnet.Wallet.PublicKey)
-  nameWithType: NameServiceProgram.CreateNameRegistry(PublicKey, Account, PublicKey, UInt64, Int32, Account, Account, PublicKey)
+- uid: Solnet.Programs.NameServiceProgram.CreateNameRegistry(Solnet.Wallet.PublicKey,Solnet.Wallet.Account,Solnet.Wallet.PublicKey,System.UInt64,System.UInt32,Solnet.Wallet.Account,Solnet.Wallet.Account,Solnet.Wallet.PublicKey)
+  name: CreateNameRegistry(PublicKey, Account, PublicKey, UInt64, UInt32, Account, Account, PublicKey)
+  href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_CreateNameRegistry_Solnet_Wallet_PublicKey_Solnet_Wallet_Account_Solnet_Wallet_PublicKey_System_UInt64_System_UInt32_Solnet_Wallet_Account_Solnet_Wallet_Account_Solnet_Wallet_PublicKey_
+  commentId: M:Solnet.Programs.NameServiceProgram.CreateNameRegistry(Solnet.Wallet.PublicKey,Solnet.Wallet.Account,Solnet.Wallet.PublicKey,System.UInt64,System.UInt32,Solnet.Wallet.Account,Solnet.Wallet.Account,Solnet.Wallet.PublicKey)
+  fullName: Solnet.Programs.NameServiceProgram.CreateNameRegistry(Solnet.Wallet.PublicKey, Solnet.Wallet.Account, Solnet.Wallet.PublicKey, System.UInt64, System.UInt32, Solnet.Wallet.Account, Solnet.Wallet.Account, Solnet.Wallet.PublicKey)
+  nameWithType: NameServiceProgram.CreateNameRegistry(PublicKey, Account, PublicKey, UInt64, UInt32, Account, Account, PublicKey)
 - uid: Solnet.Programs.NameServiceProgram.CreateNameRegistry*
   name: CreateNameRegistry
   href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_CreateNameRegistry_
@@ -1751,15 +1923,15 @@ references:
   isSpec: "True"
   fullName: Solnet.Programs.NameServiceProgram.DeleteNameRegistry
   nameWithType: NameServiceProgram.DeleteNameRegistry
-- uid: Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.Byte[],Solnet.Wallet.PublicKey,Solnet.Wallet.PublicKey)
-  name: DeriveNameAccountKey(Byte[], PublicKey, PublicKey)
-  href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_DeriveNameAccountKey_System_Byte___Solnet_Wallet_PublicKey_Solnet_Wallet_PublicKey_
-  commentId: M:Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.Byte[],Solnet.Wallet.PublicKey,Solnet.Wallet.PublicKey)
-  name.vb: DeriveNameAccountKey(Byte(), PublicKey, PublicKey)
-  fullName: Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.Byte[], Solnet.Wallet.PublicKey, Solnet.Wallet.PublicKey)
-  fullName.vb: Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.Byte(), Solnet.Wallet.PublicKey, Solnet.Wallet.PublicKey)
-  nameWithType: NameServiceProgram.DeriveNameAccountKey(Byte[], PublicKey, PublicKey)
-  nameWithType.vb: NameServiceProgram.DeriveNameAccountKey(Byte(), PublicKey, PublicKey)
+- uid: Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.ReadOnlySpan{System.Byte},Solnet.Wallet.PublicKey,Solnet.Wallet.PublicKey)
+  name: DeriveNameAccountKey(ReadOnlySpan<Byte>, PublicKey, PublicKey)
+  href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_DeriveNameAccountKey_System_ReadOnlySpan_System_Byte__Solnet_Wallet_PublicKey_Solnet_Wallet_PublicKey_
+  commentId: M:Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.ReadOnlySpan{System.Byte},Solnet.Wallet.PublicKey,Solnet.Wallet.PublicKey)
+  name.vb: DeriveNameAccountKey(ReadOnlySpan(Of Byte), PublicKey, PublicKey)
+  fullName: Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.ReadOnlySpan<System.Byte>, Solnet.Wallet.PublicKey, Solnet.Wallet.PublicKey)
+  fullName.vb: Solnet.Programs.NameServiceProgram.DeriveNameAccountKey(System.ReadOnlySpan(Of System.Byte), Solnet.Wallet.PublicKey, Solnet.Wallet.PublicKey)
+  nameWithType: NameServiceProgram.DeriveNameAccountKey(ReadOnlySpan<Byte>, PublicKey, PublicKey)
+  nameWithType.vb: NameServiceProgram.DeriveNameAccountKey(ReadOnlySpan(Of Byte), PublicKey, PublicKey)
 - uid: Solnet.Programs.NameServiceProgram.DeriveNameAccountKey*
   name: DeriveNameAccountKey
   href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_DeriveNameAccountKey_
@@ -1792,15 +1964,15 @@ references:
   isSpec: "True"
   fullName: Solnet.Programs.NameServiceProgram.TransferNameRegistry
   nameWithType: NameServiceProgram.TransferNameRegistry
-- uid: Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey,System.Int32,System.Byte[],Solnet.Wallet.Account,Solnet.Wallet.Account)
-  name: UpdateNameRegistry(PublicKey, Int32, Byte[], Account, Account)
-  href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_UpdateNameRegistry_Solnet_Wallet_PublicKey_System_Int32_System_Byte___Solnet_Wallet_Account_Solnet_Wallet_Account_
-  commentId: M:Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey,System.Int32,System.Byte[],Solnet.Wallet.Account,Solnet.Wallet.Account)
-  name.vb: UpdateNameRegistry(PublicKey, Int32, Byte(), Account, Account)
-  fullName: Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey, System.Int32, System.Byte[], Solnet.Wallet.Account, Solnet.Wallet.Account)
-  fullName.vb: Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey, System.Int32, System.Byte(), Solnet.Wallet.Account, Solnet.Wallet.Account)
-  nameWithType: NameServiceProgram.UpdateNameRegistry(PublicKey, Int32, Byte[], Account, Account)
-  nameWithType.vb: NameServiceProgram.UpdateNameRegistry(PublicKey, Int32, Byte(), Account, Account)
+- uid: Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey,System.UInt32,System.ReadOnlySpan{System.Byte},Solnet.Wallet.Account,Solnet.Wallet.Account)
+  name: UpdateNameRegistry(PublicKey, UInt32, ReadOnlySpan<Byte>, Account, Account)
+  href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_UpdateNameRegistry_Solnet_Wallet_PublicKey_System_UInt32_System_ReadOnlySpan_System_Byte__Solnet_Wallet_Account_Solnet_Wallet_Account_
+  commentId: M:Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey,System.UInt32,System.ReadOnlySpan{System.Byte},Solnet.Wallet.Account,Solnet.Wallet.Account)
+  name.vb: UpdateNameRegistry(PublicKey, UInt32, ReadOnlySpan(Of Byte), Account, Account)
+  fullName: Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey, System.UInt32, System.ReadOnlySpan<System.Byte>, Solnet.Wallet.Account, Solnet.Wallet.Account)
+  fullName.vb: Solnet.Programs.NameServiceProgram.UpdateNameRegistry(Solnet.Wallet.PublicKey, System.UInt32, System.ReadOnlySpan(Of System.Byte), Solnet.Wallet.Account, Solnet.Wallet.Account)
+  nameWithType: NameServiceProgram.UpdateNameRegistry(PublicKey, UInt32, ReadOnlySpan<Byte>, Account, Account)
+  nameWithType.vb: NameServiceProgram.UpdateNameRegistry(PublicKey, UInt32, ReadOnlySpan(Of Byte), Account, Account)
 - uid: Solnet.Programs.NameServiceProgram.UpdateNameRegistry*
   name: UpdateNameRegistry
   href: api/Solnet.Programs.NameServiceProgram.html#Solnet_Programs_NameServiceProgram_UpdateNameRegistry_
@@ -1820,15 +1992,15 @@ references:
   commentId: F:Solnet.Programs.SharedMemoryProgram.ProgramId
   fullName: Solnet.Programs.SharedMemoryProgram.ProgramId
   nameWithType: SharedMemoryProgram.ProgramId
-- uid: Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey,System.Byte[],System.UInt64)
-  name: Write(PublicKey, Byte[], UInt64)
-  href: api/Solnet.Programs.SharedMemoryProgram.html#Solnet_Programs_SharedMemoryProgram_Write_Solnet_Wallet_PublicKey_System_Byte___System_UInt64_
-  commentId: M:Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey,System.Byte[],System.UInt64)
-  name.vb: Write(PublicKey, Byte(), UInt64)
-  fullName: Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey, System.Byte[], System.UInt64)
-  fullName.vb: Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey, System.Byte(), System.UInt64)
-  nameWithType: SharedMemoryProgram.Write(PublicKey, Byte[], UInt64)
-  nameWithType.vb: SharedMemoryProgram.Write(PublicKey, Byte(), UInt64)
+- uid: Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey,System.ReadOnlySpan{System.Byte},System.UInt64)
+  name: Write(PublicKey, ReadOnlySpan<Byte>, UInt64)
+  href: api/Solnet.Programs.SharedMemoryProgram.html#Solnet_Programs_SharedMemoryProgram_Write_Solnet_Wallet_PublicKey_System_ReadOnlySpan_System_Byte__System_UInt64_
+  commentId: M:Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey,System.ReadOnlySpan{System.Byte},System.UInt64)
+  name.vb: Write(PublicKey, ReadOnlySpan(Of Byte), UInt64)
+  fullName: Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey, System.ReadOnlySpan<System.Byte>, System.UInt64)
+  fullName.vb: Solnet.Programs.SharedMemoryProgram.Write(Solnet.Wallet.PublicKey, System.ReadOnlySpan(Of System.Byte), System.UInt64)
+  nameWithType: SharedMemoryProgram.Write(PublicKey, ReadOnlySpan<Byte>, UInt64)
+  nameWithType.vb: SharedMemoryProgram.Write(PublicKey, ReadOnlySpan(Of Byte), UInt64)
 - uid: Solnet.Programs.SharedMemoryProgram.Write*
   name: Write
   href: api/Solnet.Programs.SharedMemoryProgram.html#Solnet_Programs_SharedMemoryProgram_Write_
@@ -2284,44 +2456,376 @@ references:
   isSpec: "True"
   fullName: Solnet.Programs.TokenProgram.TransferChecked
   nameWithType: TokenProgram.TransferChecked
-- uid: Solnet.Programs.Utils
-  name: Utils
-  href: api/Solnet.Programs.Utils.html
-  commentId: T:Solnet.Programs.Utils
-  fullName: Solnet.Programs.Utils
-  nameWithType: Utils
-- uid: Solnet.Programs.Utils.Int64ToByteArrayLe(System.UInt64,System.Byte[],System.Int32)
-  name: Int64ToByteArrayLe(UInt64, Byte[], Int32)
-  href: api/Solnet.Programs.Utils.html#Solnet_Programs_Utils_Int64ToByteArrayLe_System_UInt64_System_Byte___System_Int32_
-  commentId: M:Solnet.Programs.Utils.Int64ToByteArrayLe(System.UInt64,System.Byte[],System.Int32)
-  name.vb: Int64ToByteArrayLe(UInt64, Byte(), Int32)
-  fullName: Solnet.Programs.Utils.Int64ToByteArrayLe(System.UInt64, System.Byte[], System.Int32)
-  fullName.vb: Solnet.Programs.Utils.Int64ToByteArrayLe(System.UInt64, System.Byte(), System.Int32)
-  nameWithType: Utils.Int64ToByteArrayLe(UInt64, Byte[], Int32)
-  nameWithType.vb: Utils.Int64ToByteArrayLe(UInt64, Byte(), Int32)
-- uid: Solnet.Programs.Utils.Int64ToByteArrayLe*
-  name: Int64ToByteArrayLe
-  href: api/Solnet.Programs.Utils.html#Solnet_Programs_Utils_Int64ToByteArrayLe_
-  commentId: Overload:Solnet.Programs.Utils.Int64ToByteArrayLe
+- uid: Solnet.Programs.Utilities
+  name: Solnet.Programs.Utilities
+  href: api/Solnet.Programs.Utilities.html
+  commentId: N:Solnet.Programs.Utilities
+  fullName: Solnet.Programs.Utilities
+  nameWithType: Solnet.Programs.Utilities
+- uid: Solnet.Programs.Utilities.Deserialization
+  name: Deserialization
+  href: api/Solnet.Programs.Utilities.Deserialization.html
+  commentId: T:Solnet.Programs.Utilities.Deserialization
+  fullName: Solnet.Programs.Utilities.Deserialization
+  nameWithType: Deserialization
+- uid: Solnet.Programs.Utilities.Deserialization.GetBigInt(System.ReadOnlySpan{System.Byte},System.Int32,System.Int32,System.Boolean,System.Boolean)
+  name: GetBigInt(ReadOnlySpan<Byte>, Int32, Int32, Boolean, Boolean)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetBigInt_System_ReadOnlySpan_System_Byte__System_Int32_System_Int32_System_Boolean_System_Boolean_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetBigInt(System.ReadOnlySpan{System.Byte},System.Int32,System.Int32,System.Boolean,System.Boolean)
+  name.vb: GetBigInt(ReadOnlySpan(Of Byte), Int32, Int32, Boolean, Boolean)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetBigInt(System.ReadOnlySpan<System.Byte>, System.Int32, System.Int32, System.Boolean, System.Boolean)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetBigInt(System.ReadOnlySpan(Of System.Byte), System.Int32, System.Int32, System.Boolean, System.Boolean)
+  nameWithType: Deserialization.GetBigInt(ReadOnlySpan<Byte>, Int32, Int32, Boolean, Boolean)
+  nameWithType.vb: Deserialization.GetBigInt(ReadOnlySpan(Of Byte), Int32, Int32, Boolean, Boolean)
+- uid: Solnet.Programs.Utilities.Deserialization.GetBigInt*
+  name: GetBigInt
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetBigInt_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetBigInt
   isSpec: "True"
-  fullName: Solnet.Programs.Utils.Int64ToByteArrayLe
-  nameWithType: Utils.Int64ToByteArrayLe
-- uid: Solnet.Programs.Utils.Uint32ToByteArrayLe(System.UInt64,System.Byte[],System.Int32)
-  name: Uint32ToByteArrayLe(UInt64, Byte[], Int32)
-  href: api/Solnet.Programs.Utils.html#Solnet_Programs_Utils_Uint32ToByteArrayLe_System_UInt64_System_Byte___System_Int32_
-  commentId: M:Solnet.Programs.Utils.Uint32ToByteArrayLe(System.UInt64,System.Byte[],System.Int32)
-  name.vb: Uint32ToByteArrayLe(UInt64, Byte(), Int32)
-  fullName: Solnet.Programs.Utils.Uint32ToByteArrayLe(System.UInt64, System.Byte[], System.Int32)
-  fullName.vb: Solnet.Programs.Utils.Uint32ToByteArrayLe(System.UInt64, System.Byte(), System.Int32)
-  nameWithType: Utils.Uint32ToByteArrayLe(UInt64, Byte[], Int32)
-  nameWithType.vb: Utils.Uint32ToByteArrayLe(UInt64, Byte(), Int32)
-- uid: Solnet.Programs.Utils.Uint32ToByteArrayLe*
-  name: Uint32ToByteArrayLe
-  href: api/Solnet.Programs.Utils.html#Solnet_Programs_Utils_Uint32ToByteArrayLe_
-  commentId: Overload:Solnet.Programs.Utils.Uint32ToByteArrayLe
+  fullName: Solnet.Programs.Utilities.Deserialization.GetBigInt
+  nameWithType: Deserialization.GetBigInt
+- uid: Solnet.Programs.Utilities.Deserialization.GetPubKey(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetPubKey(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetPubKey_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetPubKey(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetPubKey(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetPubKey(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetPubKey(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetPubKey(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetPubKey(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetPubKey*
+  name: GetPubKey
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetPubKey_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetPubKey
   isSpec: "True"
-  fullName: Solnet.Programs.Utils.Uint32ToByteArrayLe
-  nameWithType: Utils.Uint32ToByteArrayLe
+  fullName: Solnet.Programs.Utilities.Deserialization.GetPubKey
+  nameWithType: Deserialization.GetPubKey
+- uid: Solnet.Programs.Utilities.Deserialization.GetS16(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetS16(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS16_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetS16(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetS16(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS16(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetS16(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetS16(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetS16(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetS16*
+  name: GetS16
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS16_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetS16
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS16
+  nameWithType: Deserialization.GetS16
+- uid: Solnet.Programs.Utilities.Deserialization.GetS32(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetS32(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS32_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetS32(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetS32(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS32(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetS32(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetS32(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetS32(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetS32*
+  name: GetS32
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS32_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetS32
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS32
+  nameWithType: Deserialization.GetS32
+- uid: Solnet.Programs.Utilities.Deserialization.GetS64(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetS64(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS64_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetS64(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetS64(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS64(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetS64(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetS64(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetS64(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetS64*
+  name: GetS64
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS64_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetS64
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS64
+  nameWithType: Deserialization.GetS64
+- uid: Solnet.Programs.Utilities.Deserialization.GetS8(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetS8(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS8_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetS8(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetS8(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS8(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetS8(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetS8(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetS8(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetS8*
+  name: GetS8
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetS8_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetS8
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetS8
+  nameWithType: Deserialization.GetS8
+- uid: Solnet.Programs.Utilities.Deserialization.GetSpan(System.ReadOnlySpan{System.Byte},System.Int32,System.Int32)
+  name: GetSpan(ReadOnlySpan<Byte>, Int32, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetSpan_System_ReadOnlySpan_System_Byte__System_Int32_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetSpan(System.ReadOnlySpan{System.Byte},System.Int32,System.Int32)
+  name.vb: GetSpan(ReadOnlySpan(Of Byte), Int32, Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetSpan(System.ReadOnlySpan<System.Byte>, System.Int32, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetSpan(System.ReadOnlySpan(Of System.Byte), System.Int32, System.Int32)
+  nameWithType: Deserialization.GetSpan(ReadOnlySpan<Byte>, Int32, Int32)
+  nameWithType.vb: Deserialization.GetSpan(ReadOnlySpan(Of Byte), Int32, Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetSpan*
+  name: GetSpan
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetSpan_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetSpan
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetSpan
+  nameWithType: Deserialization.GetSpan
+- uid: Solnet.Programs.Utilities.Deserialization.GetU16(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetU16(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU16_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetU16(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetU16(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU16(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetU16(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetU16(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetU16(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetU16*
+  name: GetU16
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU16_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetU16
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU16
+  nameWithType: Deserialization.GetU16
+- uid: Solnet.Programs.Utilities.Deserialization.GetU32(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetU32(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU32_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetU32(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetU32(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU32(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetU32(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetU32(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetU32(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetU32*
+  name: GetU32
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU32_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetU32
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU32
+  nameWithType: Deserialization.GetU32
+- uid: Solnet.Programs.Utilities.Deserialization.GetU64(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetU64(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU64_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetU64(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetU64(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU64(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetU64(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetU64(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetU64(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetU64*
+  name: GetU64
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU64_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetU64
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU64
+  nameWithType: Deserialization.GetU64
+- uid: Solnet.Programs.Utilities.Deserialization.GetU8(System.ReadOnlySpan{System.Byte},System.Int32)
+  name: GetU8(ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU8_System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Deserialization.GetU8(System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: GetU8(ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU8(System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Deserialization.GetU8(System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Deserialization.GetU8(ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Deserialization.GetU8(ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Deserialization.GetU8*
+  name: GetU8
+  href: api/Solnet.Programs.Utilities.Deserialization.html#Solnet_Programs_Utilities_Deserialization_GetU8_
+  commentId: Overload:Solnet.Programs.Utilities.Deserialization.GetU8
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Deserialization.GetU8
+  nameWithType: Deserialization.GetU8
+- uid: Solnet.Programs.Utilities.Serialization
+  name: Serialization
+  href: api/Solnet.Programs.Utilities.Serialization.html
+  commentId: T:Solnet.Programs.Utilities.Serialization
+  fullName: Solnet.Programs.Utilities.Serialization
+  nameWithType: Serialization
+- uid: Solnet.Programs.Utilities.Serialization.WriteBigInt(System.Byte[],System.Numerics.BigInteger,System.Int32,System.Boolean,System.Boolean)
+  name: WriteBigInt(Byte[], BigInteger, Int32, Boolean, Boolean)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteBigInt_System_Byte___System_Numerics_BigInteger_System_Int32_System_Boolean_System_Boolean_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteBigInt(System.Byte[],System.Numerics.BigInteger,System.Int32,System.Boolean,System.Boolean)
+  name.vb: WriteBigInt(Byte(), BigInteger, Int32, Boolean, Boolean)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteBigInt(System.Byte[], System.Numerics.BigInteger, System.Int32, System.Boolean, System.Boolean)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteBigInt(System.Byte(), System.Numerics.BigInteger, System.Int32, System.Boolean, System.Boolean)
+  nameWithType: Serialization.WriteBigInt(Byte[], BigInteger, Int32, Boolean, Boolean)
+  nameWithType.vb: Serialization.WriteBigInt(Byte(), BigInteger, Int32, Boolean, Boolean)
+- uid: Solnet.Programs.Utilities.Serialization.WriteBigInt*
+  name: WriteBigInt
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteBigInt_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteBigInt
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteBigInt
+  nameWithType: Serialization.WriteBigInt
+- uid: Solnet.Programs.Utilities.Serialization.WritePubKey(System.Byte[],Solnet.Wallet.PublicKey,System.Int32)
+  name: WritePubKey(Byte[], PublicKey, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WritePubKey_System_Byte___Solnet_Wallet_PublicKey_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WritePubKey(System.Byte[],Solnet.Wallet.PublicKey,System.Int32)
+  name.vb: WritePubKey(Byte(), PublicKey, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WritePubKey(System.Byte[], Solnet.Wallet.PublicKey, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WritePubKey(System.Byte(), Solnet.Wallet.PublicKey, System.Int32)
+  nameWithType: Serialization.WritePubKey(Byte[], PublicKey, Int32)
+  nameWithType.vb: Serialization.WritePubKey(Byte(), PublicKey, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WritePubKey*
+  name: WritePubKey
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WritePubKey_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WritePubKey
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WritePubKey
+  nameWithType: Serialization.WritePubKey
+- uid: Solnet.Programs.Utilities.Serialization.WriteS16(System.Byte[],System.Int16,System.Int32)
+  name: WriteS16(Byte[], Int16, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS16_System_Byte___System_Int16_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteS16(System.Byte[],System.Int16,System.Int32)
+  name.vb: WriteS16(Byte(), Int16, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS16(System.Byte[], System.Int16, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteS16(System.Byte(), System.Int16, System.Int32)
+  nameWithType: Serialization.WriteS16(Byte[], Int16, Int32)
+  nameWithType.vb: Serialization.WriteS16(Byte(), Int16, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteS16*
+  name: WriteS16
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS16_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteS16
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS16
+  nameWithType: Serialization.WriteS16
+- uid: Solnet.Programs.Utilities.Serialization.WriteS32(System.Byte[],System.Int32,System.Int32)
+  name: WriteS32(Byte[], Int32, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS32_System_Byte___System_Int32_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteS32(System.Byte[],System.Int32,System.Int32)
+  name.vb: WriteS32(Byte(), Int32, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS32(System.Byte[], System.Int32, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteS32(System.Byte(), System.Int32, System.Int32)
+  nameWithType: Serialization.WriteS32(Byte[], Int32, Int32)
+  nameWithType.vb: Serialization.WriteS32(Byte(), Int32, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteS32*
+  name: WriteS32
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS32_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteS32
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS32
+  nameWithType: Serialization.WriteS32
+- uid: Solnet.Programs.Utilities.Serialization.WriteS64(System.Byte[],System.Int64,System.Int32)
+  name: WriteS64(Byte[], Int64, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS64_System_Byte___System_Int64_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteS64(System.Byte[],System.Int64,System.Int32)
+  name.vb: WriteS64(Byte(), Int64, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS64(System.Byte[], System.Int64, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteS64(System.Byte(), System.Int64, System.Int32)
+  nameWithType: Serialization.WriteS64(Byte[], Int64, Int32)
+  nameWithType.vb: Serialization.WriteS64(Byte(), Int64, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteS64*
+  name: WriteS64
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS64_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteS64
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS64
+  nameWithType: Serialization.WriteS64
+- uid: Solnet.Programs.Utilities.Serialization.WriteS8(System.Byte[],System.SByte,System.Int32)
+  name: WriteS8(Byte[], SByte, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS8_System_Byte___System_SByte_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteS8(System.Byte[],System.SByte,System.Int32)
+  name.vb: WriteS8(Byte(), SByte, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS8(System.Byte[], System.SByte, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteS8(System.Byte(), System.SByte, System.Int32)
+  nameWithType: Serialization.WriteS8(Byte[], SByte, Int32)
+  nameWithType.vb: Serialization.WriteS8(Byte(), SByte, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteS8*
+  name: WriteS8
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteS8_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteS8
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteS8
+  nameWithType: Serialization.WriteS8
+- uid: Solnet.Programs.Utilities.Serialization.WriteSpan(System.Byte[],System.ReadOnlySpan{System.Byte},System.Int32)
+  name: WriteSpan(Byte[], ReadOnlySpan<Byte>, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteSpan_System_Byte___System_ReadOnlySpan_System_Byte__System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteSpan(System.Byte[],System.ReadOnlySpan{System.Byte},System.Int32)
+  name.vb: WriteSpan(Byte(), ReadOnlySpan(Of Byte), Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteSpan(System.Byte[], System.ReadOnlySpan<System.Byte>, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteSpan(System.Byte(), System.ReadOnlySpan(Of System.Byte), System.Int32)
+  nameWithType: Serialization.WriteSpan(Byte[], ReadOnlySpan<Byte>, Int32)
+  nameWithType.vb: Serialization.WriteSpan(Byte(), ReadOnlySpan(Of Byte), Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteSpan*
+  name: WriteSpan
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteSpan_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteSpan
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteSpan
+  nameWithType: Serialization.WriteSpan
+- uid: Solnet.Programs.Utilities.Serialization.WriteU16(System.Byte[],System.UInt16,System.Int32)
+  name: WriteU16(Byte[], UInt16, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU16_System_Byte___System_UInt16_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteU16(System.Byte[],System.UInt16,System.Int32)
+  name.vb: WriteU16(Byte(), UInt16, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU16(System.Byte[], System.UInt16, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteU16(System.Byte(), System.UInt16, System.Int32)
+  nameWithType: Serialization.WriteU16(Byte[], UInt16, Int32)
+  nameWithType.vb: Serialization.WriteU16(Byte(), UInt16, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteU16*
+  name: WriteU16
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU16_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteU16
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU16
+  nameWithType: Serialization.WriteU16
+- uid: Solnet.Programs.Utilities.Serialization.WriteU32(System.Byte[],System.UInt32,System.Int32)
+  name: WriteU32(Byte[], UInt32, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU32_System_Byte___System_UInt32_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteU32(System.Byte[],System.UInt32,System.Int32)
+  name.vb: WriteU32(Byte(), UInt32, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU32(System.Byte[], System.UInt32, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteU32(System.Byte(), System.UInt32, System.Int32)
+  nameWithType: Serialization.WriteU32(Byte[], UInt32, Int32)
+  nameWithType.vb: Serialization.WriteU32(Byte(), UInt32, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteU32*
+  name: WriteU32
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU32_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteU32
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU32
+  nameWithType: Serialization.WriteU32
+- uid: Solnet.Programs.Utilities.Serialization.WriteU64(System.Byte[],System.UInt64,System.Int32)
+  name: WriteU64(Byte[], UInt64, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU64_System_Byte___System_UInt64_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteU64(System.Byte[],System.UInt64,System.Int32)
+  name.vb: WriteU64(Byte(), UInt64, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU64(System.Byte[], System.UInt64, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteU64(System.Byte(), System.UInt64, System.Int32)
+  nameWithType: Serialization.WriteU64(Byte[], UInt64, Int32)
+  nameWithType.vb: Serialization.WriteU64(Byte(), UInt64, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteU64*
+  name: WriteU64
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU64_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteU64
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU64
+  nameWithType: Serialization.WriteU64
+- uid: Solnet.Programs.Utilities.Serialization.WriteU8(System.Byte[],System.Byte,System.Int32)
+  name: WriteU8(Byte[], Byte, Int32)
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU8_System_Byte___System_Byte_System_Int32_
+  commentId: M:Solnet.Programs.Utilities.Serialization.WriteU8(System.Byte[],System.Byte,System.Int32)
+  name.vb: WriteU8(Byte(), Byte, Int32)
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU8(System.Byte[], System.Byte, System.Int32)
+  fullName.vb: Solnet.Programs.Utilities.Serialization.WriteU8(System.Byte(), System.Byte, System.Int32)
+  nameWithType: Serialization.WriteU8(Byte[], Byte, Int32)
+  nameWithType.vb: Serialization.WriteU8(Byte(), Byte, Int32)
+- uid: Solnet.Programs.Utilities.Serialization.WriteU8*
+  name: WriteU8
+  href: api/Solnet.Programs.Utilities.Serialization.html#Solnet_Programs_Utilities_Serialization_WriteU8_
+  commentId: Overload:Solnet.Programs.Utilities.Serialization.WriteU8
+  isSpec: "True"
+  fullName: Solnet.Programs.Utilities.Serialization.WriteU8
+  nameWithType: Serialization.WriteU8
 - uid: Solnet.Rpc
   name: Solnet.Rpc
   href: api/Solnet.Rpc.html

@@ -6,10 +6,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class KeyStore&lt;TKdfParams&gt;
+    <title>Class Flag&lt;T&gt;
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class KeyStore&lt;TKdfParams&gt;
+    <meta name="title" content="Class Flag&lt;T&gt;
    ">
     <meta name="generator" content="docfx 2.58.0.0">
     
@@ -92,17 +92,19 @@
                           </div>
                         </div>
 
-                    <article class="content wrap" id="_content" data-uid="Solnet.KeyStore.Model.KeyStore`1">
+                    <article class="content wrap" id="_content" data-uid="Solnet.Programs.Abstract.Flag`1">
   
   
-  <h1 id="Solnet_KeyStore_Model_KeyStore_1" data-uid="Solnet.KeyStore.Model.KeyStore`1" class="text-break">Class KeyStore&lt;TKdfParams&gt;
+  <h1 id="Solnet_Programs_Abstract_Flag_1" data-uid="Solnet.Programs.Abstract.Flag`1" class="text-break">Class Flag&lt;T&gt;
   </h1>
-  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 summary"><p>Represents bitmask flags for various types of accounts within Solana Programs.</p>
+</div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">KeyStore&lt;TKdfParams&gt;</span></div>
+    <div class="level1"><span class="xref">Flag&lt;T&gt;</span></div>
+      <div class="level2"><a class="xref" href="Solnet.Programs.Abstract.ByteFlag.html">ByteFlag</a></div>
   </div>
   <div class="inheritedMembers">
     <h5>Inherited Members</h5>
@@ -128,13 +130,11 @@
       <span class="xref">System.Object.ToString()</span>
     </div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="Solnet.KeyStore.Model.html">Solnet.KeyStore.Model</a></h6>
-  <h6><strong>Assembly</strong>: Solnet.KeyStore.dll</h6>
-  <h5 id="Solnet_KeyStore_Model_KeyStore_1_syntax">Syntax</h5>
+  <h6><strong>Namespace</strong>: <a class="xref" href="Solnet.Programs.Abstract.html">Solnet.Programs.Abstract</a></h6>
+  <h6><strong>Assembly</strong>: Solnet.Programs.dll</h6>
+  <h5 id="Solnet_Programs_Abstract_Flag_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class KeyStore&lt;TKdfParams&gt;
-
-    where TKdfParams : KdfParams</code></pre>
+    <pre><code class="lang-csharp hljs">public abstract class Flag&lt;T&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -146,8 +146,44 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="parametername">TKdfParams</span></td>
+        <td><span class="parametername">T</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Abstract_Flag_1__ctor__0_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Abstract.Flag%601.%23ctor(%600)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Abstract/Flag.cs/#L17">View Source</a>
+  </span>
+  <a id="Solnet_Programs_Abstract_Flag_1__ctor_" data-uid="Solnet.Programs.Abstract.Flag`1.#ctor*"></a>
+  <h4 id="Solnet_Programs_Abstract_Flag_1__ctor__0_" data-uid="Solnet.Programs.Abstract.Flag`1.#ctor(`0)">Flag(T)</h4>
+  <div class="markdown level1 summary"><p>Initialize the flags with the given mask.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Flag(T mask)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">T</span></td>
+        <td><span class="parametername">mask</span></td>
+        <td><p>The mask to use.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -155,19 +191,19 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_KeyStore_Model_KeyStore_1_Address.md&amp;value=---%0Auid%3A%20Solnet.KeyStore.Model.KeyStore%601.Address%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Abstract_Flag_1_Value.md&amp;value=---%0Auid%3A%20Solnet.Programs.Abstract.Flag%601.Value%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.KeyStore/Model/KeyStore.cs/#L13">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Abstract/Flag.cs/#L11">View Source</a>
   </span>
-  <a id="Solnet_KeyStore_Model_KeyStore_1_Address_" data-uid="Solnet.KeyStore.Model.KeyStore`1.Address*"></a>
-  <h4 id="Solnet_KeyStore_Model_KeyStore_1_Address" data-uid="Solnet.KeyStore.Model.KeyStore`1.Address">Address</h4>
-  <div class="markdown level1 summary"></div>
+  <a id="Solnet_Programs_Abstract_Flag_1_Value_" data-uid="Solnet.Programs.Abstract.Flag`1.Value*"></a>
+  <h4 id="Solnet_Programs_Abstract_Flag_1_Value" data-uid="Solnet.Programs.Abstract.Flag`1.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The mask for the account flags.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;address&quot;)]
-public string Address { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public T Value { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -179,100 +215,7 @@ public string Address { get; set; }</code></pre>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_KeyStore_Model_KeyStore_1_Crypto.md&amp;value=---%0Auid%3A%20Solnet.KeyStore.Model.KeyStore%601.Crypto%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.KeyStore/Model/KeyStore.cs/#L7">View Source</a>
-  </span>
-  <a id="Solnet_KeyStore_Model_KeyStore_1_Crypto_" data-uid="Solnet.KeyStore.Model.KeyStore`1.Crypto*"></a>
-  <h4 id="Solnet_KeyStore_Model_KeyStore_1_Crypto" data-uid="Solnet.KeyStore.Model.KeyStore`1.Crypto">Crypto</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;crypto&quot;)]
-public CryptoInfo&lt;TKdfParams&gt; Crypto { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="Solnet.KeyStore.Model.CryptoInfo-1.html">CryptoInfo</a>&lt;TKdfParams&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_KeyStore_Model_KeyStore_1_Id.md&amp;value=---%0Auid%3A%20Solnet.KeyStore.Model.KeyStore%601.Id%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.KeyStore/Model/KeyStore.cs/#L10">View Source</a>
-  </span>
-  <a id="Solnet_KeyStore_Model_KeyStore_1_Id_" data-uid="Solnet.KeyStore.Model.KeyStore`1.Id*"></a>
-  <h4 id="Solnet_KeyStore_Model_KeyStore_1_Id" data-uid="Solnet.KeyStore.Model.KeyStore`1.Id">Id</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;id&quot;)]
-public string Id { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_KeyStore_Model_KeyStore_1_Version.md&amp;value=---%0Auid%3A%20Solnet.KeyStore.Model.KeyStore%601.Version%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.KeyStore/Model/KeyStore.cs/#L16">View Source</a>
-  </span>
-  <a id="Solnet_KeyStore_Model_KeyStore_1_Version_" data-uid="Solnet.KeyStore.Model.KeyStore`1.Version*"></a>
-  <h4 id="Solnet_KeyStore_Model_KeyStore_1_Version" data-uid="Solnet.KeyStore.Model.KeyStore`1.Version">Version</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[JsonPropertyName(&quot;version&quot;)]
-public int Version { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
+        <td><span class="xref">T</span></td>
         <td></td>
       </tr>
     </tbody>
