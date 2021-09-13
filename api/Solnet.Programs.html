@@ -107,6 +107,12 @@
 For more information see: <a href="https://spl.solana.com/associated-token-account">https://spl.solana.com/associated-token-account</a>
 </remarks></p>
 </section>
+      <h4><a class="xref" href="Solnet.Programs.DecodedInstruction.html">DecodedInstruction</a></h4>
+      <section><p>Represents a decoded instruction.</p>
+</section>
+      <h4><a class="xref" href="Solnet.Programs.InstructionDecoder.html">InstructionDecoder</a></h4>
+      <section><p>Implements instruction decoder functionality.</p>
+</section>
       <h4><a class="xref" href="Solnet.Programs.MemoProgram.html">MemoProgram</a></h4>
       <section><p>Implements the Memo Program methods.
 <remarks>
@@ -127,18 +133,30 @@ Note: this program, as of writing this, was inactive in some clusters.
 </remarks></p>
 </section>
       <h4><a class="xref" href="Solnet.Programs.SystemProgram.html">SystemProgram</a></h4>
-      <section><p>Implements the System Program methods.</p>
+      <section><p>Implements the System Program methods.
+<remarks>
+For more information see:
+<a href="https://docs.solana.com/developing/runtime-facilities/programs#system-program">https://docs.solana.com/developing/runtime-facilities/programs#system-program</a>
+<a href="https://docs.rs/solana-sdk/1.7.0/solana_sdk/system_instruction/enum.SystemInstruction.html">https://docs.rs/solana-sdk/1.7.0/solana_sdk/system_instruction/enum.SystemInstruction.html</a>
+</remarks></p>
 </section>
       <h4><a class="xref" href="Solnet.Programs.TokenProgram.html">TokenProgram</a></h4>
       <section><p>Implements the Token Program methods.
 <remarks>
-For more information see: <a href="https://spl.solana.com/token">https://spl.solana.com/token</a>
+For more information see:
+<a href="https://spl.solana.com/token">https://spl.solana.com/token</a>
+<a href="https://docs.rs/spl-token/3.2.0/spl_token/">https://docs.rs/spl-token/3.2.0/spl_token/</a>
 </remarks></p>
 </section>
     <h3 id="enums">Enums
   </h3>
       <h4><a class="xref" href="Solnet.Programs.AuthorityType.html">AuthorityType</a></h4>
-      <section><p>Represents the types of authorities for <a class="xref" href="Solnet.Programs.TokenProgram.html#Solnet_Programs_TokenProgram_SetAuthority_Solnet_Wallet_PublicKey_Solnet_Programs_AuthorityType_Solnet_Wallet_Account_Solnet_Wallet_PublicKey_System_Collections_Generic_IEnumerable_Solnet_Wallet_Account__">SetAuthority(PublicKey, AuthorityType, Account, PublicKey, IEnumerable&lt;Account&gt;)</a> instructions.</p>
+      <section><p>Represents the types of authorities for <a class="xref" href="Solnet.Programs.TokenProgram.html#Solnet_Programs_TokenProgram_SetAuthority_Solnet_Wallet_PublicKey_Solnet_Programs_AuthorityType_Solnet_Wallet_PublicKey_Solnet_Wallet_PublicKey_System_Collections_Generic_IEnumerable_Solnet_Wallet_PublicKey__">SetAuthority(PublicKey, AuthorityType, PublicKey, PublicKey, IEnumerable&lt;PublicKey&gt;)</a> instructions.</p>
+</section>
+    <h3 id="delegates">Delegates
+  </h3>
+      <h4><a class="xref" href="Solnet.Programs.InstructionDecoder.DecodeMethodType.html">InstructionDecoder.DecodeMethodType</a></h4>
+      <section><p>The method type which is used to perform instruction decoding.</p>
 </section>
 </article>
               

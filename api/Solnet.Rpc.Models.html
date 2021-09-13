@@ -128,6 +128,9 @@
       <h4><a class="xref" href="Solnet.Rpc.Models.ClusterNode.html">ClusterNode</a></h4>
       <section><p>Represents a node in the cluster.</p>
 </section>
+      <h4><a class="xref" href="Solnet.Rpc.Models.CompiledInstruction.html">CompiledInstruction</a></h4>
+      <section><p>A compiled instruction within the transaction's message.</p>
+</section>
       <h4><a class="xref" href="Solnet.Rpc.Models.EpochInfo.html">EpochInfo</a></h4>
       <section><p>Represents information about the current epoch.</p>
 </section>
@@ -182,11 +185,23 @@
       <h4><a class="xref" href="Solnet.Rpc.Models.LogInfo.html">LogInfo</a></h4>
       <section><p>Represents a log message when subscribing to the log output of the Streaming RPC.</p>
 </section>
+      <h4><a class="xref" href="Solnet.Rpc.Models.MemCmp.html">MemCmp</a></h4>
+      <section><p>Represents the <code>memcmp</code> filter for the <a class="xref" href="Solnet.Rpc.IRpcClient.html#Solnet_Rpc_IRpcClient_GetProgramAccounts_System_String_Solnet_Rpc_Types_Commitment_System_Nullable_System_Int32__System_Collections_Generic_IList_Solnet_Rpc_Models_MemCmp__">GetProgramAccounts(String, Commitment, Nullable&lt;Int32&gt;, IList&lt;MemCmp&gt;)</a> method.</p>
+</section>
+      <h4><a class="xref" href="Solnet.Rpc.Models.Message.html">Message</a></h4>
+      <section><p>Represents the Message of a Solana <a class="xref" href="Solnet.Rpc.Models.Transaction.html">Transaction</a>.</p>
+</section>
+      <h4><a class="xref" href="Solnet.Rpc.Models.MessageHeader.html">MessageHeader</a></h4>
+      <section><p>The message header.</p>
+</section>
       <h4><a class="xref" href="Solnet.Rpc.Models.NodeIdentity.html">NodeIdentity</a></h4>
       <section><p>Represents the identity public key for the current node.</p>
 </section>
       <h4><a class="xref" href="Solnet.Rpc.Models.NodeVersion.html">NodeVersion</a></h4>
       <section><p>Represents the current solana versions running on the node.</p>
+</section>
+      <h4><a class="xref" href="Solnet.Rpc.Models.NonceInformation.html">NonceInformation</a></h4>
+      <section><p>Nonce information to be used to build an offline transaction.</p>
 </section>
       <h4><a class="xref" href="Solnet.Rpc.Models.ParsedTokenAccountData.html">ParsedTokenAccountData</a></h4>
       <section><p>Represents the parsed account data, as available by the program-specific state parser.</p>
@@ -196,6 +211,9 @@
 </section>
       <h4><a class="xref" href="Solnet.Rpc.Models.RewardInfo.html">RewardInfo</a></h4>
       <section><p>Represents the reward information related to a given account.</p>
+</section>
+      <h4><a class="xref" href="Solnet.Rpc.Models.SignaturePubKeyPair.html">SignaturePubKeyPair</a></h4>
+      <section><p>A pair corresponding of a public key and it's verifiable signature.</p>
 </section>
       <h4><a class="xref" href="Solnet.Rpc.Models.SignatureStatusInfo.html">SignatureStatusInfo</a></h4>
       <section><p>Represents the signature status information.</p>
@@ -233,6 +251,9 @@
       <h4><a class="xref" href="Solnet.Rpc.Models.TokenBalanceInfo.html">TokenBalanceInfo</a></h4>
       <section><p>Represents the structure of a token balance metadata for a transaction.</p>
 </section>
+      <h4><a class="xref" href="Solnet.Rpc.Models.Transaction.html">Transaction</a></h4>
+      <section><p>Represents a Transaction in Solana.</p>
+</section>
       <h4><a class="xref" href="Solnet.Rpc.Models.TransactionContentInfo.html">TransactionContentInfo</a></h4>
       <section><p>Represents the contents of the trasaction.</p>
 </section>
@@ -249,7 +270,7 @@
       <section><p>Represents a transaction.</p>
 </section>
       <h4><a class="xref" href="Solnet.Rpc.Models.TransactionInstruction.html">TransactionInstruction</a></h4>
-      <section><p>Represents a transaction instruction.</p>
+      <section><p>Represents a transaction instruction before being compiled into the transaction's message.</p>
 </section>
       <h4><a class="xref" href="Solnet.Rpc.Models.TransactionMeta.html">TransactionMeta</a></h4>
       <section><p>Represents the transaction metadata.</p>

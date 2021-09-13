@@ -139,10 +139,63 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_EncodeRustString_System_String_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.EncodeRustString(System.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L219">View Source</a>
+  </span>
+  <a id="Solnet_Programs_Utilities_Serialization_EncodeRustString_" data-uid="Solnet.Programs.Utilities.Serialization.EncodeRustString*"></a>
+  <h4 id="Solnet_Programs_Utilities_Serialization_EncodeRustString_System_String_" data-uid="Solnet.Programs.Utilities.Serialization.EncodeRustString(System.String)">EncodeRustString(String)</h4>
+  <div class="markdown level1 summary"><p>Encodes a string for transaction instruction.
+<remarks>
+Example taken from here: <a href="https://github.com/michaelhly/solana-py/blob/c595b7bedb9574dbf3da7243175de3ab72810226/solana/_layouts/shared.py">https://github.com/michaelhly/solana-py/blob/c595b7bedb9574dbf3da7243175de3ab72810226/solana/_layouts/shared.py</a>
+</remarks></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static byte[] EncodeRustString(string data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to encode.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><p>The encoded data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteBigInt_System_Byte___System_Numerics_BigInteger_System_Int32_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteBigInt(System.Byte%5B%5D%2CSystem.Numerics.BigInteger%2CSystem.Int32%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L175">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L166">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteBigInt_" data-uid="Solnet.Programs.Utilities.Serialization.WriteBigInt*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteBigInt_System_Byte___System_Numerics_BigInteger_System_Int32_System_Boolean_System_Boolean_" data-uid="Solnet.Programs.Utilities.Serialization.WriteBigInt(System.Byte[],System.Numerics.BigInteger,System.Int32,System.Boolean,System.Boolean)">WriteBigInt(Byte[], BigInteger, Int32, Boolean, Boolean)</h4>
@@ -207,7 +260,69 @@ Optionally specify if it's signed and the endianness.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Int32</span></td>
-        <td><p>The <span class="xref">System.Numerics.BigInteger</span> instance that represents the value.</p>
+        <td><p>An integer representing the number of bytes written to the byte array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the offset is too big for the data array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteDouble_System_Byte___System_Double_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteDouble(System.Byte%5B%5D%2CSystem.Double%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L188">View Source</a>
+  </span>
+  <a id="Solnet_Programs_Utilities_Serialization_WriteDouble_" data-uid="Solnet.Programs.Utilities.Serialization.WriteDouble*"></a>
+  <h4 id="Solnet_Programs_Utilities_Serialization_WriteDouble_System_Byte___System_Double_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteDouble(System.Byte[],System.Double,System.Int32)">WriteDouble(Byte[], Double, Int32)</h4>
+  <div class="markdown level1 summary"><p>Write a double-precision floating-point value to the byte array at the given offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteDouble(this byte[] data, double value, int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The byte array to get data from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.Double</span> to write.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset at which to write the <span class="xref">System.Double</span>.</p>
 </td>
       </tr>
     </tbody>
@@ -233,7 +348,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WritePubKey_System_Byte___Solnet_Wallet_PublicKey_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WritePubKey(System.Byte%5B%5D%2CSolnet.Wallet.PublicKey%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L157">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L148">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WritePubKey_" data-uid="Solnet.Programs.Utilities.Serialization.WritePubKey*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WritePubKey_System_Byte___Solnet_Wallet_PublicKey_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WritePubKey(System.Byte[],Solnet.Wallet.PublicKey,System.Int32)">WritePubKey(Byte[], PublicKey, Int32)</h4>
@@ -295,7 +410,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteS16_System_Byte___System_Int16_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteS16(System.Byte%5B%5D%2CSystem.Int16%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L97">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L92">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteS16_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS16*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteS16_System_Byte___System_Int16_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS16(System.Byte[],System.Int16,System.Int32)">WriteS16(Byte[], Int16, Int32)</h4>
@@ -357,7 +472,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteS32_System_Byte___System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteS32(System.Byte%5B%5D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L112">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L106">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteS32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS32*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteS32_System_Byte___System_Int32_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS32(System.Byte[],System.Int32,System.Int32)">WriteS32(Byte[], Int32, Int32)</h4>
@@ -419,7 +534,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteS64_System_Byte___System_Int64_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteS64(System.Byte%5B%5D%2CSystem.Int64%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L127">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L120">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteS64_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS64*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteS64_System_Byte___System_Int64_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS64(System.Byte[],System.Int64,System.Int32)">WriteS64(Byte[], Int64, Int32)</h4>
@@ -481,7 +596,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteS8_System_Byte___System_SByte_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteS8(System.Byte%5B%5D%2CSystem.SByte%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L82">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L78">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteS8_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS8*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteS8_System_Byte___System_SByte_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteS8(System.Byte[],System.SByte,System.Int32)">WriteS8(Byte[], SByte, Int32)</h4>
@@ -540,10 +655,72 @@ Optionally specify if it's signed and the endianness.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteSingle_System_Byte___System_Single_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteSingle(System.Byte%5B%5D%2CSystem.Single%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L203">View Source</a>
+  </span>
+  <a id="Solnet_Programs_Utilities_Serialization_WriteSingle_" data-uid="Solnet.Programs.Utilities.Serialization.WriteSingle*"></a>
+  <h4 id="Solnet_Programs_Utilities_Serialization_WriteSingle_System_Byte___System_Single_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteSingle(System.Byte[],System.Single,System.Int32)">WriteSingle(Byte[], Single, Int32)</h4>
+  <div class="markdown level1 summary"><p>Write a single-precision floating-point value to the byte array at the given offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void WriteSingle(this byte[] data, float value, int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The byte array to get data from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>The <span class="xref">System.Single</span> to write.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset at which to write the <span class="xref">System.Single</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the offset is too big for the data array.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteSpan_System_Byte___System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteSpan(System.Byte%5B%5D%2CSystem.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L142">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L134">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteSpan_" data-uid="Solnet.Programs.Utilities.Serialization.WriteSpan*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteSpan_System_Byte___System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteSpan(System.Byte[],System.ReadOnlySpan{System.Byte},System.Int32)">WriteSpan(Byte[], ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -605,7 +782,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteU16_System_Byte___System_UInt16_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteU16(System.Byte%5B%5D%2CSystem.UInt16%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L37">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L36">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteU16_" data-uid="Solnet.Programs.Utilities.Serialization.WriteU16*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteU16_System_Byte___System_UInt16_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteU16(System.Byte[],System.UInt16,System.Int32)">WriteU16(Byte[], UInt16, Int32)</h4>
@@ -667,7 +844,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteU32_System_Byte___System_UInt32_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteU32(System.Byte%5B%5D%2CSystem.UInt32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L52">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L50">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteU32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteU32*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteU32_System_Byte___System_UInt32_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteU32(System.Byte[],System.UInt32,System.Int32)">WriteU32(Byte[], UInt32, Int32)</h4>
@@ -729,7 +906,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Serialization_WriteU64_System_Byte___System_UInt64_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Serialization.WriteU64(System.Byte%5B%5D%2CSystem.UInt64%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L67">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Serialization.cs/#L64">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Serialization_WriteU64_" data-uid="Solnet.Programs.Utilities.Serialization.WriteU64*"></a>
   <h4 id="Solnet_Programs_Utilities_Serialization_WriteU64_System_Byte___System_UInt64_System_Int32_" data-uid="Solnet.Programs.Utilities.Serialization.WriteU64(System.Byte[],System.UInt64,System.Int32)">WriteU64(Byte[], UInt64, Int32)</h4>

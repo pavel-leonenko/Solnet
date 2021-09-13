@@ -139,10 +139,82 @@
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_DecodeRustString_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.DecodeRustString(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L214">View Source</a>
+  </span>
+  <a id="Solnet_Programs_Utilities_Deserialization_DecodeRustString_" data-uid="Solnet.Programs.Utilities.Deserialization.DecodeRustString*"></a>
+  <h4 id="Solnet_Programs_Utilities_Deserialization_DecodeRustString_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.DecodeRustString(System.ReadOnlySpan{System.Byte},System.Int32)">DecodeRustString(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>Decodes a string from a transaction instruction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static (string EncodedString, int Length) DecodeRustString(this ReadOnlySpan&lt;byte&gt; data, int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The data to decode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset at which the string begins.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.Int32</span>&gt;</td>
+        <td><p>The decoded data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the offset is too big for the span.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetBigInt_System_ReadOnlySpan_System_Byte__System_Int32_System_Int32_System_Boolean_System_Boolean_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetBigInt(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32%2CSystem.Int32%2CSystem.Boolean%2CSystem.Boolean)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L168">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L169">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetBigInt_" data-uid="Solnet.Programs.Utilities.Deserialization.GetBigInt*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetBigInt_System_ReadOnlySpan_System_Byte__System_Int32_System_Int32_System_Boolean_System_Boolean_" data-uid="Solnet.Programs.Utilities.Deserialization.GetBigInt(System.ReadOnlySpan{System.Byte},System.Int32,System.Int32,System.Boolean,System.Boolean)">GetBigInt(ReadOnlySpan&lt;Byte&gt;, Int32, Int32, Boolean, Boolean)</h4>
@@ -230,10 +302,82 @@ Optionally specify if it's signed and the endianness.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetDouble_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetDouble(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L184">View Source</a>
+  </span>
+  <a id="Solnet_Programs_Utilities_Deserialization_GetDouble_" data-uid="Solnet.Programs.Utilities.Deserialization.GetDouble*"></a>
+  <h4 id="Solnet_Programs_Utilities_Deserialization_GetDouble_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetDouble(System.ReadOnlySpan{System.Byte},System.Int32)">GetDouble(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a double-precision floating-point number from the span at the given offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static double GetDouble(this ReadOnlySpan&lt;byte&gt; data, int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The span to get data from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset at which the double-precision floating-point number begins.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>The <span class="xref">System.Double</span> instance that represents the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the offset is too big for the span.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetPubKey_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetPubKey(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L150">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L151">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetPubKey_" data-uid="Solnet.Programs.Utilities.Deserialization.GetPubKey*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetPubKey_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetPubKey(System.ReadOnlySpan{System.Byte},System.Int32)">GetPubKey(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -305,7 +449,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetS16_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetS16(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L91">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L92">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetS16_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS16*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetS16_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS16(System.ReadOnlySpan{System.Byte},System.Int32)">GetS16(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -377,7 +521,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetS32_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetS32(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L105">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L106">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetS32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS32*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetS32_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS32(System.ReadOnlySpan{System.Byte},System.Int32)">GetS32(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -449,7 +593,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetS64_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetS64(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L119">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L120">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetS64_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS64*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetS64_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS64(System.ReadOnlySpan{System.Byte},System.Int32)">GetS64(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -521,7 +665,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetS8_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetS8(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L77">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L78">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetS8_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS8*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetS8_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetS8(System.ReadOnlySpan{System.Byte},System.Int32)">GetS8(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -590,10 +734,82 @@ Optionally specify if it's signed and the endianness.</p>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetSingle_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetSingle(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L199">View Source</a>
+  </span>
+  <a id="Solnet_Programs_Utilities_Deserialization_GetSingle_" data-uid="Solnet.Programs.Utilities.Deserialization.GetSingle*"></a>
+  <h4 id="Solnet_Programs_Utilities_Deserialization_GetSingle_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetSingle(System.ReadOnlySpan{System.Byte},System.Int32)">GetSingle(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
+  <div class="markdown level1 summary"><p>Get a single-precision floating-point number from the span at the given offset.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static float GetSingle(this ReadOnlySpan&lt;byte&gt; data, int offset)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The span to get data from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">offset</span></td>
+        <td><p>The offset at which the single-precision floating-point number begins.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>The <span class="xref">System.Single</span> instance that represents the value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>Thrown when the offset is too big for the span.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetSpan_System_ReadOnlySpan_System_Byte__System_Int32_System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetSpan(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L134">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L135">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetSpan_" data-uid="Solnet.Programs.Utilities.Deserialization.GetSpan*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetSpan_System_ReadOnlySpan_System_Byte__System_Int32_System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetSpan(System.ReadOnlySpan{System.Byte},System.Int32,System.Int32)">GetSpan(ReadOnlySpan&lt;Byte&gt;, Int32, Int32)</h4>
@@ -671,7 +887,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetU16_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetU16(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L35">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L36">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetU16_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU16*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetU16_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU16(System.ReadOnlySpan{System.Byte},System.Int32)">GetU16(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -743,7 +959,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetU32_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetU32(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L49">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L50">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetU32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU32*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetU32_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU32(System.ReadOnlySpan{System.Byte},System.Int32)">GetU32(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -815,7 +1031,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetU64_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetU64(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L63">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L64">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetU64_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU64*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetU64_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU64(System.ReadOnlySpan{System.Byte},System.Int32)">GetU64(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>
@@ -887,7 +1103,7 @@ Optionally specify if it's signed and the endianness.</p>
     <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_Utilities_Deserialization_GetU8_System_ReadOnlySpan_System_Byte__System_Int32_.md&amp;value=---%0Auid%3A%20Solnet.Programs.Utilities.Deserialization.GetU8(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Int32)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L21">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/Utilities/Deserialization.cs/#L22">View Source</a>
   </span>
   <a id="Solnet_Programs_Utilities_Deserialization_GetU8_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU8*"></a>
   <h4 id="Solnet_Programs_Utilities_Deserialization_GetU8_System_ReadOnlySpan_System_Byte__System_Int32_" data-uid="Solnet.Programs.Utilities.Deserialization.GetU8(System.ReadOnlySpan{System.Byte},System.Int32)">GetU8(ReadOnlySpan&lt;Byte&gt;, Int32)</h4>

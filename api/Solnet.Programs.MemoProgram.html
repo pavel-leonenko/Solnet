@@ -138,23 +138,85 @@ For more information see: <a href="https://spl.solana.com/memo">https://spl.sola
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static class MemoProgram</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_MemoProgram_NewMemo_Solnet_Wallet_Account_System_String_.md&amp;value=---%0Auid%3A%20Solnet.Programs.MemoProgram.NewMemo(Solnet.Wallet.Account%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_MemoProgram_ProgramIdKey.md&amp;value=---%0Auid%3A%20Solnet.Programs.MemoProgram.ProgramIdKey%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/MemoProgram.cs/#L28">View Source</a>
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/MemoProgram.cs/#L22">View Source</a>
   </span>
-  <a id="Solnet_Programs_MemoProgram_NewMemo_" data-uid="Solnet.Programs.MemoProgram.NewMemo*"></a>
-  <h4 id="Solnet_Programs_MemoProgram_NewMemo_Solnet_Wallet_Account_System_String_" data-uid="Solnet.Programs.MemoProgram.NewMemo(Solnet.Wallet.Account,System.String)">NewMemo(Account, String)</h4>
-  <div class="markdown level1 summary"><p>Initialize a new transaction instruction which interacts with the Memo Program.</p>
+  <h4 id="Solnet_Programs_MemoProgram_ProgramIdKey" data-uid="Solnet.Programs.MemoProgram.ProgramIdKey">ProgramIdKey</h4>
+  <div class="markdown level1 summary"><p>The public key of the Memo Program.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static TransactionInstruction NewMemo(Account account, string memo)</code></pre>
+    <pre><code class="lang-csharp hljs">public static readonly PublicKey ProgramIdKey</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Solnet.Wallet.PublicKey.html">PublicKey</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_MemoProgram_ProgramIdKeyV2.md&amp;value=---%0Auid%3A%20Solnet.Programs.MemoProgram.ProgramIdKeyV2%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/MemoProgram.cs/#L27">View Source</a>
+  </span>
+  <h4 id="Solnet_Programs_MemoProgram_ProgramIdKeyV2" data-uid="Solnet.Programs.MemoProgram.ProgramIdKeyV2">ProgramIdKeyV2</h4>
+  <div class="markdown level1 summary"><p>The public key of the Memo Program V2.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static readonly PublicKey ProgramIdKeyV2</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Solnet.Wallet.PublicKey.html">PublicKey</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_MemoProgram_Decode_System_ReadOnlySpan_System_Byte__System_Collections_Generic_IList_Solnet_Wallet_PublicKey__System_Byte___.md&amp;value=---%0Auid%3A%20Solnet.Programs.MemoProgram.Decode(System.ReadOnlySpan%7BSystem.Byte%7D%2CSystem.Collections.Generic.IList%7BSolnet.Wallet.PublicKey%7D%2CSystem.Byte%5B%5D)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/MemoProgram.cs/#L90">View Source</a>
+  </span>
+  <a id="Solnet_Programs_MemoProgram_Decode_" data-uid="Solnet.Programs.MemoProgram.Decode*"></a>
+  <h4 id="Solnet_Programs_MemoProgram_Decode_System_ReadOnlySpan_System_Byte__System_Collections_Generic_IList_Solnet_Wallet_PublicKey__System_Byte___" data-uid="Solnet.Programs.MemoProgram.Decode(System.ReadOnlySpan{System.Byte},System.Collections.Generic.IList{Solnet.Wallet.PublicKey},System.Byte[])">Decode(ReadOnlySpan&lt;Byte&gt;, IList&lt;PublicKey&gt;, Byte[])</h4>
+  <div class="markdown level1 summary"><p>Decodes an instruction created by the Memo Program.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static DecodedInstruction Decode(ReadOnlySpan&lt;byte&gt; data, IList&lt;PublicKey&gt; keys, byte[] keyIndices)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -167,15 +229,133 @@ For more information see: <a href="https://spl.solana.com/memo">https://spl.sola
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="Solnet.Wallet.Account.html">Account</a></td>
+        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>The instruction data to decode.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IList</span>&lt;<a class="xref" href="Solnet.Wallet.PublicKey.html">PublicKey</a>&gt;</td>
+        <td><span class="parametername">keys</span></td>
+        <td><p>The account keys present in the transaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">keyIndices</span></td>
+        <td><p>The indices of the account keys for the instruction as they appear in the transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Solnet.Programs.DecodedInstruction.html">DecodedInstruction</a></td>
+        <td><p>A decoded instruction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_MemoProgram_NewMemo_Solnet_Wallet_PublicKey_System_String_.md&amp;value=---%0Auid%3A%20Solnet.Programs.MemoProgram.NewMemo(Solnet.Wallet.PublicKey%2CSystem.String)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/MemoProgram.cs/#L45">View Source</a>
+  </span>
+  <a id="Solnet_Programs_MemoProgram_NewMemo_" data-uid="Solnet.Programs.MemoProgram.NewMemo*"></a>
+  <h4 id="Solnet_Programs_MemoProgram_NewMemo_Solnet_Wallet_PublicKey_System_String_" data-uid="Solnet.Programs.MemoProgram.NewMemo(Solnet.Wallet.PublicKey,System.String)">NewMemo(PublicKey, String)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new transaction instruction which interacts with the Memo Program.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TransactionInstruction NewMemo(PublicKey account, string memo)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Solnet.Wallet.PublicKey.html">PublicKey</a></td>
         <td><span class="parametername">account</span></td>
-        <td><p>The account associated with the memo.</p>
+        <td><p>The public key of the account associated with the memo.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">memo</span></td>
         <td><p>The memo to be included in the transaction.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="Solnet.Rpc.Models.TransactionInstruction.html">TransactionInstruction</a></td>
+        <td><p>The <a class="xref" href="Solnet.Rpc.Models.TransactionInstruction.html">TransactionInstruction</a> which includes the memo data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/tiago18c/Solnet/new/master/apiSpec/new?filename=Solnet_Programs_MemoProgram_NewMemoV2_System_String_Solnet_Wallet_PublicKey_.md&amp;value=---%0Auid%3A%20Solnet.Programs.MemoProgram.NewMemoV2(System.String%2CSolnet.Wallet.PublicKey)%0Asummary%3A%20'*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax'%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/tiago18c/Solnet/blob/master/src/Solnet.Programs/MemoProgram.cs/#L67">View Source</a>
+  </span>
+  <a id="Solnet_Programs_MemoProgram_NewMemoV2_" data-uid="Solnet.Programs.MemoProgram.NewMemoV2*"></a>
+  <h4 id="Solnet_Programs_MemoProgram_NewMemoV2_System_String_Solnet_Wallet_PublicKey_" data-uid="Solnet.Programs.MemoProgram.NewMemoV2(System.String,Solnet.Wallet.PublicKey)">NewMemoV2(String, PublicKey)</h4>
+  <div class="markdown level1 summary"><p>Initialize a new transaction instruction which interacts with the Memo Program.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static TransactionInstruction NewMemoV2(string memo, PublicKey account = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">memo</span></td>
+        <td><p>The memo to be included in the transaction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Solnet.Wallet.PublicKey.html">PublicKey</a></td>
+        <td><span class="parametername">account</span></td>
+        <td><p>The public key of the account associated with the memo.</p>
 </td>
       </tr>
     </tbody>
