@@ -44,7 +44,7 @@ namespace Solnet.Rpc
         /// <param name="parameters">A list of parameters to include in the request.</param>
         /// <typeparam name="T">The type of the request result.</typeparam>
         /// <returns>A task which may return a request result.</returns>
-        private JsonRpcRequest BuildRequest<T>(string method, IList<object> parameters)
+        private JsonRpcRequest BuildRequest(string method, IList<object> parameters)
             => new JsonRpcRequest(_idGenerator.GetNextId(), method, parameters);
 
         /// <summary>
@@ -55,7 +55,7 @@ namespace Solnet.Rpc
         /// <returns>A task which may return a request result.</returns>
         private async Task<RequestResult<T>> SendRequestAsync<T>(string method)
         {
-            JsonRpcRequest req = BuildRequest<T>(method, null);
+            JsonRpcRequest req = BuildRequest(method, null);
             return await SendRequest<T>(req);
         }
 
@@ -68,7 +68,7 @@ namespace Solnet.Rpc
         /// <returns>A task which may return a request result.</returns>
         private async Task<RequestResult<T>> SendRequestAsync<T>(string method, IList<object> parameters)
         {
-            JsonRpcRequest req = BuildRequest<T>(method, parameters);
+            JsonRpcRequest req = BuildRequest(method, parameters);
             return await SendRequest<T>(req);
         }
 
@@ -426,6 +426,14 @@ namespace Solnet.Rpc
             return await SendRequestAsync<TransactionMetaSlotInfo>("getTransaction",
                 Parameters.Create(signature,
                     ConfigObject.Create(KeyValue.Create("encoding", "json"), HandleCommitment(commitment))));
+        }
+
+        public async Task<RequestResult<TransactionMetaEncodedInfo>> GetEncodedTransactionAsync(string signature,
+            Commitment commitment = Commitment.Finalized)
+        {
+            return await SendRequestAsync<TransactionMetaEncodedInfo>("getTransaction",
+                Parameters.Create(signature,
+                    ConfigObject.Create(KeyValue.Create("encoding", "base64"), HandleCommitment(commitment))));
         }
 
         public async Task<RequestResult<TransactionMetaSlotInfo>> GetConfirmedTransactionAsync(string signature,

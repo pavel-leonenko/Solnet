@@ -1,6 +1,7 @@
 // ReSharper disable UnusedAutoPropertyAccessor.Global
 // ReSharper disable ClassNeverInstantiated.Global
 
+using System.Collections.Generic;
 using System.Text.Json.Serialization;
 
 namespace Solnet.Rpc.Models
@@ -76,6 +77,32 @@ namespace Solnet.Rpc.Models
         /// The transaction information.
         /// </summary>
         public TransactionInfo Transaction { get; set; }
+
+        /// <summary>
+        /// The metadata information.
+        /// </summary>
+        public TransactionMeta Meta { get; set; }
+    }
+
+    /// <summary>
+    /// Represents the transaction, metadata and its containing slot.
+    /// </summary>
+    public class TransactionMetaEncodedInfo
+    {
+        /// <summary>
+        /// The slot this transaction was processed in.
+        /// </summary>
+        public ulong Slot { get; set; }
+
+        /// <summary>
+        /// Estimated block production time.
+        /// </summary>
+        public long? BlockTime { get; set; }
+
+        /// <summary>
+        /// The transaction information as base-58 or base-64 encoded string.
+        /// </summary>
+        public IReadOnlyList<string> Transaction { get; set; }
 
         /// <summary>
         /// The metadata information.

@@ -1019,6 +1019,9 @@ namespace Solnet.Rpc
         Task<RequestResult<TransactionMetaSlotInfo>> GetTransactionAsync(string signature,
             Commitment commitment = Commitment.Finalized);
 
+        Task<RequestResult<TransactionMetaEncodedInfo>> GetEncodedTransactionAsync(string signature,
+            Commitment commitment = Commitment.Finalized);
+
         /// <summary>
         /// Returns transaction details for a confirmed transaction.
         /// <remarks>
