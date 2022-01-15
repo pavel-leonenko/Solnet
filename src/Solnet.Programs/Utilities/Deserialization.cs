@@ -2,6 +2,7 @@ using Solnet.Wallet;
 using System;
 using System.Buffers.Binary;
 using System.Diagnostics;
+using System.Linq;
 using System.Numerics;
 using System.Text;
 
@@ -211,13 +212,22 @@ namespace Solnet.Programs.Utilities
         /// <param name="offset">The offset at which the string begins.</param>
         /// <returns>The decoded data.</returns>
         /// <exception cref="ArgumentOutOfRangeException">Thrown when the offset is too big for the span.</exception>
-        public static (string EncodedString, int Length) DecodeRustString(this ReadOnlySpan<byte> data, int offset)
+        public static (string EncodedString, int Length) DecodeRustString(this ReadOnlySpan<byte> data, int offset, bool skipLastZeroBytes = false)
         {
             if (offset + sizeof(uint) > data.Length)
                 throw new ArgumentOutOfRangeException(nameof(offset));
 
             int stringLength = (int)data.GetU32(offset);
             byte[] stringBytes = data.GetSpan(offset + sizeof(uint), stringLength).ToArray();
+
+            if (skipLastZeroBytes)
+            {
+                stringBytes = stringBytes
+                    .Reverse()
+                    .SkipWhile(x => x == 0)
+                    .Reverse()
+                    .ToArray();
+            }
 
             return (EncodedString: Encoding.ASCII.GetString(stringBytes), Length: stringLength + sizeof(uint));
         }
